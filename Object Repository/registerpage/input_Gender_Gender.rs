@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>9a3cab57-4bc9-45ed-a1a7-65a16ac2626d</webElementGuid>
+      <webElementGuid>496f65c8-fc88-4aad-9dad-290acd0c5536</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>gender-male</value>
-      <webElementGuid>16456799-b9ae-4de1-9e58-4b98130bb83f</webElementGuid>
+      <webElementGuid>68633c64-5e0b-4c1e-b112-8de952c452dd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>name</name>
       <type>Main</type>
       <value>Gender</value>
-      <webElementGuid>14013895-5085-4f51-9c9b-c2d50edb707a</webElementGuid>
+      <webElementGuid>c99f318f-d116-4075-aea7-145af54b6be9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>type</name>
       <type>Main</type>
       <value>radio</value>
-      <webElementGuid>e2928d0a-4ce7-49c6-9d11-42892e5b14c8</webElementGuid>
+      <webElementGuid>b7e0ab78-3b63-4c37-af34-aa7812427a85</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>value</name>
       <type>Main</type>
       <value>M</value>
-      <webElementGuid>3b2230b2-6d21-4cff-a7e5-232ce3d4478d</webElementGuid>
+      <webElementGuid>73165ea1-ea48-42bc-b83c-f406752b66db</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;gender-male&quot;)</value>
-      <webElementGuid>1c862587-03e1-49e8-a332-5cc7abfeac75</webElementGuid>
+      <webElementGuid>20c2d044-2958-4e5b-bc03-9fd4dcd4b270</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='gender-male']</value>
-      <webElementGuid>200b1548-4904-4241-ae92-3aaac172a894</webElementGuid>
+      <webElementGuid>7cef5a6e-87a4-48e6-8b7d-5a0741c17ab3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/div[2]/div/div/input</value>
-      <webElementGuid>8195e412-faf3-47c5-bbdb-c9ca365aafa6</webElementGuid>
+      <webElementGuid>687f964e-cf3e-4d9e-84ac-ff0ab8c435ea</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'gender-male' and @name = 'Gender' and @type = 'radio']</value>
-      <webElementGuid>b6782d10-5363-472b-8807-43d17ecb0c22</webElementGuid>
+      <webElementGuid>24177308-9553-49b2-b995-1c044c1b66ed</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>a82d64c0-76bb-4eb5-a65d-7464a130f249</webElementGuid>
+      <webElementGuid>91e6982e-1679-4da0-942e-f682bcc02875</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>86347956-6f9a-4f6b-9694-b987a8710859</webElementGuid>
+      <webElementGuid>e9869b26-e499-480a-9caf-fbe1fe345ebd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>button-1 register-continue-button</value>
-      <webElementGuid>dacf042e-8ec4-4c82-b0e8-066662a47478</webElementGuid>
+      <webElementGuid>709b0043-de93-4efb-b01e-08bcb904c9c7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>location.href='/'</value>
-      <webElementGuid>b31ea0d8-b441-42b0-b697-878db81b1564</webElementGuid>
+      <webElementGuid>2d54caf0-b7eb-424b-85d3-9481f38b8f0b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>value</name>
       <type>Main</type>
       <value>Continue</value>
-      <webElementGuid>cce1db46-419b-4439-9e20-6921132dd41c</webElementGuid>
+      <webElementGuid>0df80f86-97be-4951-bcca-6bf77460247d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[@class=&quot;master-wrapper-page&quot;]/div[@class=&quot;master-wrapper-content&quot;]/div[@class=&quot;master-wrapper-main&quot;]/div[@class=&quot;center-2&quot;]/div[@class=&quot;page registration-result-page&quot;]/div[@class=&quot;page-body&quot;]/div[@class=&quot;buttons&quot;]/input[@class=&quot;button-1 register-continue-button&quot;]</value>
-      <webElementGuid>a53d4659-be1c-49d4-b3d0-9d041ea03e8e</webElementGuid>
+      <webElementGuid>05aebc87-f8ed-48ea-9e20-48856b91c8f4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@value='Continue']</value>
-      <webElementGuid>ab79f9f6-2829-4d95-8986-27b73cfe2d8b</webElementGuid>
+      <webElementGuid>025f4dac-dd79-4d5e-a782-6678be10aaed</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/input</value>
-      <webElementGuid>db28a662-164d-42a4-869e-8f83ef4cfdc9</webElementGuid>
+      <webElementGuid>c51ae9f4-fdbc-4ab2-afdf-e7bd19de688e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'button']</value>
-      <webElementGuid>a5e07e88-2e1b-47bc-b74f-4bf2ebb9ace6</webElementGuid>
+      <webElementGuid>f1559b34-a2ec-4028-8798-8f29967e1ad3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
