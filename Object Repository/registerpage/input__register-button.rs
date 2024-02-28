@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>9184eb8a-698f-419d-9c5f-69c44ca5b1cd</webElementGuid>
+      <webElementGuid>d650a10d-9656-446d-b9ea-a2e865c59587</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>803d6bf7-af34-4749-b1f2-9ee2d0282822</webElementGuid>
+      <webElementGuid>abf10cff-7c2f-4a78-80ea-c86ab1fca07c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>id</name>
       <type>Main</type>
       <value>register-button</value>
-      <webElementGuid>46bede06-6733-4755-8568-d97150755902</webElementGuid>
+      <webElementGuid>06c27b68-3ff1-47b2-9223-1b169055f4bc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>button-1 register-next-step-button</value>
-      <webElementGuid>1202938a-97db-476d-adaa-ae6bc50fade7</webElementGuid>
+      <webElementGuid>ef5667d5-943c-4de5-a1cf-999f44b810d1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>value</name>
       <type>Main</type>
       <value>Register</value>
-      <webElementGuid>9d984643-f65f-4806-8cff-bb2caa4f00c2</webElementGuid>
+      <webElementGuid>e0f39770-3ada-473b-8dcf-7789b147115a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>name</name>
       <type>Main</type>
       <value>register-button</value>
-      <webElementGuid>c8f42433-26be-4535-be73-9b83d58bfa02</webElementGuid>
+      <webElementGuid>75fd0557-f64b-450a-b435-fd6bec8dd915</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;register-button&quot;)</value>
-      <webElementGuid>23b75ebf-7880-4caf-a0a2-d3beac86c880</webElementGuid>
+      <webElementGuid>6eb80854-8cdf-4763-8552-9ec84417efa4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='register-button']</value>
-      <webElementGuid>e5acb1d9-c4f2-4c91-8b84-94fdc23d88f1</webElementGuid>
+      <webElementGuid>3f403fb9-ac15-4e2e-9bc4-b372fd3def8d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/input</value>
-      <webElementGuid>ee2fe9f1-fc5c-4a31-a475-d16faf524b1e</webElementGuid>
+      <webElementGuid>8be38571-70c2-4ffe-a5ca-d959f973274b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +94,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'submit' and @id = 'register-button' and @name = 'register-button']</value>
-      <webElementGuid>75254e8a-516c-418d-8567-4953fa92431e</webElementGuid>
+      <webElementGuid>00add8ea-3054-4443-b479-7275964b31fd</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

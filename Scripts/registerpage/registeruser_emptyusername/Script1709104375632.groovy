@@ -21,23 +21,23 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://demowebshop.tricentis.com/')
 
-WebUI.click(findTestObject('Object Repository/registerpage/a_Register'))
+WebUI.click(findTestObject('Object Repository/registerpage/menuitem_register'))
 
 WebUI.click(findTestObject('Object Repository/registerpage/input_Gender_Gender'))
 
+WebUI.click(findTestObject('Object Repository/registerpage/input_Last name_LastName'))
+
 WebUI.setText(findTestObject('Object Repository/registerpage/input_First name_FirstName'), 'wayan')
 
-WebUI.setText(findTestObject('Object Repository/registerpage/input_Last name_LastName'), 'wayan')
+WebUI.setText(findTestObject('Object Repository/registerpage/input_Email_Email'), 'wayanpnm3@gmail.com')
 
-WebUI.setText(findTestObject('Object Repository/registerpage/input_Email_Email'), 'wayanpnm@mail.com')
+WebUI.setEncryptedText(findTestObject('Object Repository/registerpage/input_Password_Password'), 'aeHFOx8jV/A=')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/registerpage/input_Password_Password'), 'lrttaOB3Bv3i9gjrsdnDHQ==')
+WebUI.setEncryptedText(findTestObject('Object Repository/registerpage/input_Confirm password_ConfirmPassword'), 'aeHFOx8jV/A=')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/registerpage/input_Confirm password_ConfirmPassword'), 'tzH6RvlfSTg=')
+WebUI.click(findTestObject('Object Repository/registerpage/input__register-button'))
 
-WebUI.click(findTestObject('Object Repository/registerpage/div_Your Personal Details                  _668734'))
-
-WebUI.click(findTestObject('Object Repository/registerpage/span_The password and confirmation password_059b3e'))
+WebUI.click(findTestObject('Object Repository/registerpage/body_AjaxCart.init(false, .header-links .ca_ffb489_1'))
 
 WebUI.closeBrowser()
 

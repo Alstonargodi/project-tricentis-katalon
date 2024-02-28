@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Register</name>
+   <name>menuitem_register</name>
    <tag></tag>
    <elementGuidId>12b697a9-7b44-4ff5-9f43-7567deb08c39</elementGuidId>
    <selectorCollection>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>012f6e1b-cb9e-4802-9525-b4415cc347e3</webElementGuid>
+      <webElementGuid>ed2abb74-cca4-426a-969e-8ba92aed2418</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/register</value>
-      <webElementGuid>6a0fbf30-6161-444e-801c-59bda7d920a0</webElementGuid>
+      <webElementGuid>0f4ec6ac-d5a1-4748-a8b0-2d9e3cdabdbb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ico-register</value>
-      <webElementGuid>b51053a9-6f43-4179-811c-b498dac1f87a</webElementGuid>
+      <webElementGuid>48c9a7af-9ea9-41e5-926e-ec1e7524a1e5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Register</value>
-      <webElementGuid>aebfd9ef-e0f1-4e87-9f5b-ce669d84aa95</webElementGuid>
+      <webElementGuid>afd4e482-5542-4c7b-bde1-45dd29197722</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[@class=&quot;master-wrapper-page&quot;]/div[@class=&quot;master-wrapper-content&quot;]/div[@class=&quot;header&quot;]/div[@class=&quot;header-links-wrapper&quot;]/div[@class=&quot;header-links&quot;]/ul[1]/li[1]/a[@class=&quot;ico-register&quot;]</value>
-      <webElementGuid>45dfe9a3-0338-433d-b371-77331b724873</webElementGuid>
+      <webElementGuid>7d799910-da6d-4fbe-8d41-2b6031af0f18</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Register')]</value>
-      <webElementGuid>b010a8d9-f15c-4713-a458-18b4ac7245ee</webElementGuid>
+      <webElementGuid>91e8ec90-3465-4177-b174-7fe975c97eab</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Log in'])[1]/preceding::a[1]</value>
-      <webElementGuid>a085e3ec-1885-409c-b8da-8b2e0be2a608</webElementGuid>
+      <webElementGuid>968c9a82-6ec3-4793-a3a9-1df1f35fae59</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Shopping cart'])[1]/preceding::a[2]</value>
-      <webElementGuid>190edd80-db33-435c-a063-54ec0df53cf6</webElementGuid>
+      <webElementGuid>c1a6d0a7-000e-4e30-a01b-15405e4d3f10</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Register']/parent::*</value>
-      <webElementGuid>fd17ac5b-5269-4adf-8b68-dabb043559a5</webElementGuid>
+      <webElementGuid>dc58bca3-eab5-4fb4-9d86-8e0a0d69e90b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/register')]</value>
-      <webElementGuid>b74bf5aa-7619-46c0-ba69-28ba5e8b58db</webElementGuid>
+      <webElementGuid>206e1b4b-92ca-448c-b358-13d31c76d6ac</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li/a</value>
-      <webElementGuid>ae62c0e0-3492-4d38-bb40-92170749ee40</webElementGuid>
+      <webElementGuid>3a9f4532-54ab-4f7a-8914-0dde5b224045</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/register' and (text() = 'Register' or . = 'Register')]</value>
-      <webElementGuid>beed8705-3032-4231-8fad-fd04b1740729</webElementGuid>
+      <webElementGuid>5cf0fecb-bd3f-44d3-bfb7-441694e35cde</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

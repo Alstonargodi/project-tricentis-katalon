@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>registeruser_emptyfirstname</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>aa1ea62a-2d4a-48bf-888b-a5431bf69ac2</testCaseGuid>
+</TestCaseEntity>
