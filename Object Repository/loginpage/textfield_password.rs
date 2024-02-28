@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input__register-button</name>
+   <name>textfield_password</name>
    <tag></tag>
-   <elementGuidId>db3a6d9e-98a5-4b75-9459-4f379e8a0bd8</elementGuidId>
+   <elementGuidId>fba22e2f-bbca-4636-9709-f69aabe6c281</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='register-button']</value>
+         <value>//input[@id='Password']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#register-button</value>
+         <value>#Password</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,78 +22,70 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>d650a10d-9656-446d-b9ea-a2e865c59587</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>submit</value>
-      <webElementGuid>abf10cff-7c2f-4a78-80ea-c86ab1fca07c</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>register-button</value>
-      <webElementGuid>06c27b68-3ff1-47b2-9223-1b169055f4bc</webElementGuid>
+      <webElementGuid>663e0ea1-116c-4501-bdfe-955ee328c455</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>button-1 register-next-step-button</value>
-      <webElementGuid>ef5667d5-943c-4de5-a1cf-999f44b810d1</webElementGuid>
+      <value>password</value>
+      <webElementGuid>95b03b1d-a372-4d9e-8c14-3c51c13db92d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>value</name>
+      <name>id</name>
       <type>Main</type>
-      <value>Register</value>
-      <webElementGuid>e0f39770-3ada-473b-8dcf-7789b147115a</webElementGuid>
+      <value>Password</value>
+      <webElementGuid>43317db1-8824-4983-8c53-3b2ac550f64b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>register-button</value>
-      <webElementGuid>75fd0557-f64b-450a-b435-fd6bec8dd915</webElementGuid>
+      <value>Password</value>
+      <webElementGuid>45da11ad-8aac-457b-ac3e-4332e395c911</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>password</value>
+      <webElementGuid>47210af4-e745-43a4-a2be-920477228ddc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;register-button&quot;)</value>
-      <webElementGuid>6eb80854-8cdf-4763-8552-9ec84417efa4</webElementGuid>
+      <value>id(&quot;Password&quot;)</value>
+      <webElementGuid>fce5631f-2c32-455f-8f48-b253e2477a17</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='register-button']</value>
-      <webElementGuid>3f403fb9-ac15-4e2e-9bc4-b372fd3def8d</webElementGuid>
+      <value>//input[@id='Password']</value>
+      <webElementGuid>6c42c028-c804-4a66-8da3-7e24581916d6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[4]/input</value>
-      <webElementGuid>8be38571-70c2-4ffe-a5ca-d959f973274b</webElementGuid>
+      <value>//form/div[3]/input</value>
+      <webElementGuid>63e03396-07f9-42a5-933f-b1ed81e0e93c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'submit' and @id = 'register-button' and @name = 'register-button']</value>
-      <webElementGuid>00add8ea-3054-4443-b479-7275964b31fd</webElementGuid>
+      <value>//input[@id = 'Password' and @name = 'Password' and @type = 'password']</value>
+      <webElementGuid>c2f5765c-2393-4f7d-885b-c79f22c98b6e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

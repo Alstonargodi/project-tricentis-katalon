@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Your registration completed</name>
+   <name>div_regristration_completed</name>
    <tag></tag>
    <elementGuidId>0db4d399-97b3-49a7-8ad1-103aa56bca77</elementGuidId>
    <selectorCollection>

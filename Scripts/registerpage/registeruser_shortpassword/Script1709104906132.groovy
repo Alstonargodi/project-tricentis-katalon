@@ -31,7 +31,7 @@ WebUI.navigateToUrl('https://demowebshop.tricentis.com/')
 
 WebUI.click(findTestObject('Object Repository/registerpage/menuitem_register'))
 
-WebUI.click(findTestObject('Object Repository/registerpage/div_Male'))
+WebUI.click(findTestObject('Object Repository/registerpage/div_gender_male'))
 
 WebUI.click(findTestObject('Object Repository/registerpage/input_Gender_Gender'))
 
@@ -41,7 +41,7 @@ WebUI.setText(findTestObject('Object Repository/registerpage/input_Last name_Las
 
 WebUI.setText(findTestObject('Object Repository/registerpage/input_Email_Email'), 'wayanpnm4@mail.com')
 
-WebUI.click(findTestObject('Object Repository/registerpage/div_Your Password                          _3011b2'))
+WebUI.click(findTestObject('Object Repository/registerpage/div_confirm_password'))
 
 WebUI.setEncryptedText(findTestObject('Object Repository/registerpage/input_Password_Password'), 'tzH6RvlfSTg=')
 
@@ -49,7 +49,7 @@ WebUI.setEncryptedText(findTestObject('Object Repository/registerpage/input_Conf
 
 WebUI.click(findTestObject('Object Repository/registerpage/span_The password should have at least 6 ch_0f50d2'))
 
-WebUI.click(findTestObject('Object Repository/registerpage/input__register-button'))
+WebUI.click(findTestObject('Object Repository/registerpage/button_register'))
 
 WebUI.closeBrowser()
 

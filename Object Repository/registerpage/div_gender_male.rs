@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Male</name>
+   <name>div_gender_male</name>
    <tag></tag>
    <elementGuidId>c764daf2-997d-43bd-8706-1fa19f676762</elementGuidId>
    <selectorCollection>

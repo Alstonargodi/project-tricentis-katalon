@@ -31,13 +31,13 @@ WebUI.setText(findTestObject('Object Repository/registerpage/input_Last name_Las
 
 WebUI.setText(findTestObject('Object Repository/registerpage/input_Email_Email'), 'wayanpnm@gmail.com')
 
-WebUI.click(findTestObject('Object Repository/registerpage/div_Your Password                          _3011b2'))
+WebUI.click(findTestObject('Object Repository/registerpage/div_confirm_password'))
 
 WebUI.setEncryptedText(findTestObject('Object Repository/registerpage/input_Password_Password'), 'aeHFOx8jV/A=')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/registerpage/input_Confirm password_ConfirmPassword'), 'aeHFOx8jV/A=')
 
-WebUI.click(findTestObject('Object Repository/registerpage/input__register-button'))
+WebUI.click(findTestObject('Object Repository/registerpage/button_register'))
 
 WebUI.closeBrowser()
 

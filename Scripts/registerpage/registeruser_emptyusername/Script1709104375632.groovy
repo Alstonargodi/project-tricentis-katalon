@@ -35,7 +35,7 @@ WebUI.setEncryptedText(findTestObject('Object Repository/registerpage/input_Pass
 
 WebUI.setEncryptedText(findTestObject('Object Repository/registerpage/input_Confirm password_ConfirmPassword'), 'aeHFOx8jV/A=')
 
-WebUI.click(findTestObject('Object Repository/registerpage/input__register-button'))
+WebUI.click(findTestObject('Object Repository/registerpage/button_register'))
 
 WebUI.click(findTestObject('Object Repository/registerpage/body_AjaxCart.init(false, .header-links .ca_ffb489_1'))
 

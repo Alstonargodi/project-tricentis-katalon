@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Your Password                          _3011b2</name>
+   <name>div_confirm_password</name>
    <tag></tag>
    <elementGuidId>fe0f4efe-fa10-49a5-9450-3e8433e613a8</elementGuidId>
    <selectorCollection>
@@ -11,7 +11,6 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

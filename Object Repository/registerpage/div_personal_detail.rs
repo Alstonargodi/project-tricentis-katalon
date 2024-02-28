@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Your Personal Details                  _668734</name>
+   <name>div_personal_detail</name>
    <tag></tag>
    <elementGuidId>fa6ac751-cdc2-494e-a975-3a452a7d1812</elementGuidId>
    <selectorCollection>

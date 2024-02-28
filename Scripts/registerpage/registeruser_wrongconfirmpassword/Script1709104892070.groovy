@@ -35,7 +35,7 @@ WebUI.setEncryptedText(findTestObject('Object Repository/registerpage/input_Pass
 
 WebUI.setEncryptedText(findTestObject('Object Repository/registerpage/input_Confirm password_ConfirmPassword'), 'tzH6RvlfSTg=')
 
-WebUI.click(findTestObject('Object Repository/registerpage/div_Your Personal Details                  _668734'))
+WebUI.click(findTestObject('Object Repository/registerpage/div_personal_detail'))
 
 WebUI.click(findTestObject('Object Repository/registerpage/span_The password and confirmation password_059b3e'))
 
