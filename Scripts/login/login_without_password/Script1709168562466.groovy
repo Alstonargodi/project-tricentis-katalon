@@ -23,6 +23,12 @@ WebUI.navigateToUrl('https://demowebshop.tricentis.com/')
 
 WebUI.click(findTestObject('Object Repository/menu_login'))
 
+WebUI.verifyElementPresent(findTestObject('loginpage/div_login_page'), 0)
+
+WebUI.verifyTextPresent('Welcome, Please Sign In!', false)
+
+WebUI.verifyElementVisible(findTestObject('loginpage/textfield_email'))
+
 WebUI.setText(findTestObject('Object Repository/textfield_email'), 'wayanpnm@gmail.com')
 
 WebUI.click(findTestObject('Object Repository/checkbox_rememberme'))
