@@ -4,9 +4,11 @@
    <name>mini-project-tricentis</name>
    <tag></tag>
    <UUID>1f425eff-25fe-427f-8a6b-f58f4edd2d91</UUID>
+   <createdVersion>9.3.1</createdVersion>
    <freeLicense>false</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>C:\Users\alston\software project\katalon-project\miniproject-2\mini-project-tricentis\mini-project-tricentis.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
