@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>textfield_email</name>
+   <name>checkbox_rememberme</name>
    <tag></tag>
-   <elementGuidId>a16e2e82-09c3-4b86-a088-4087b8e9cc18</elementGuidId>
+   <elementGuidId>49a47e32-bf4d-4529-bcf6-ae5e9f6b0b22</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#Email</value>
+         <value>#RememberMe</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='Email']</value>
+         <value>//input[@id='RememberMe']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,78 +22,70 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>b3fa8baa-bb0f-443b-ae55-0efae3ad349d</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>autofocus</name>
-      <type>Main</type>
-      <value>autofocus</value>
-      <webElementGuid>c1099920-81f3-4d92-ae51-e36f1b59f46c</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>email</value>
-      <webElementGuid>c09ae70b-41ee-4e42-89e6-ea023689e47d</webElementGuid>
+      <webElementGuid>665792c3-5516-4503-909c-252a5158f19e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>Email</value>
-      <webElementGuid>0b61be14-9f91-4ee1-88f2-91ab02b760a6</webElementGuid>
+      <value>RememberMe</value>
+      <webElementGuid>43a2bbd5-5596-4690-a036-6e6ef61f04ca</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>Email</value>
-      <webElementGuid>7a209120-b636-440d-9489-da398ee8b4c6</webElementGuid>
+      <value>RememberMe</value>
+      <webElementGuid>a87ce067-005f-441b-af82-e13b041fbf8c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>text</value>
-      <webElementGuid>ed91ed62-4fa2-47c5-936f-a3afde50f160</webElementGuid>
+      <value>checkbox</value>
+      <webElementGuid>75a2200b-63b6-440e-8a5c-b1db47283618</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>38dba5f1-36f5-4df8-ab91-1a21f59ce35c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;Email&quot;)</value>
-      <webElementGuid>15c76b3c-0f1c-4ce4-a9b5-062f8e1fc0c0</webElementGuid>
+      <value>id(&quot;RememberMe&quot;)</value>
+      <webElementGuid>a205480c-0d2a-49ec-810b-cbeae171d6fb</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='Email']</value>
-      <webElementGuid>be10c508-d6c3-424d-b37b-6d4a4277573a</webElementGuid>
+      <value>//input[@id='RememberMe']</value>
+      <webElementGuid>f01db040-6072-45e0-b741-f1be795ec320</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//form/div[2]/input</value>
-      <webElementGuid>07d1e095-498a-4f57-8631-edf27c2014fb</webElementGuid>
+      <value>//div[4]/input</value>
+      <webElementGuid>d9e8ed44-c556-42f7-a8b0-1e0fa3a35920</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@id = 'Email' and @name = 'Email' and @type = 'text']</value>
-      <webElementGuid>6a5bb82f-4b58-4a05-a232-60366d031975</webElementGuid>
+      <value>//input[@id = 'RememberMe' and @name = 'RememberMe' and @type = 'checkbox']</value>
+      <webElementGuid>4ae639d3-be62-44f9-905c-811ddbfd99f2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

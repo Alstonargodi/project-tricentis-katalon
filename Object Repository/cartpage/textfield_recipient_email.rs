@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>textfield_email</name>
+   <name>textfield_recipient_email</name>
    <tag></tag>
-   <elementGuidId>a16e2e82-09c3-4b86-a088-4087b8e9cc18</elementGuidId>
+   <elementGuidId>44aa7273-ca74-492c-a568-c750fb65a47c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#Email</value>
+         <value>#giftcard_2_RecipientEmail</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='Email']</value>
+         <value>//input[@id='giftcard_2_RecipientEmail']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,39 +22,31 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>b3fa8baa-bb0f-443b-ae55-0efae3ad349d</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>autofocus</name>
-      <type>Main</type>
-      <value>autofocus</value>
-      <webElementGuid>c1099920-81f3-4d92-ae51-e36f1b59f46c</webElementGuid>
+      <webElementGuid>9e89f78f-da0d-4537-8238-8a3475ed4f90</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>email</value>
-      <webElementGuid>c09ae70b-41ee-4e42-89e6-ea023689e47d</webElementGuid>
+      <value>recipient-email</value>
+      <webElementGuid>e75367fb-961d-4d94-8b51-d93b831befdc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>Email</value>
-      <webElementGuid>0b61be14-9f91-4ee1-88f2-91ab02b760a6</webElementGuid>
+      <value>giftcard_2_RecipientEmail</value>
+      <webElementGuid>4d50f01b-2a05-4e26-aac8-30419a53c85d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>Email</value>
-      <webElementGuid>7a209120-b636-440d-9489-da398ee8b4c6</webElementGuid>
+      <value>giftcard_2.RecipientEmail</value>
+      <webElementGuid>d9ae78a4-bbc5-437a-b411-55081062cdde</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,38 +54,46 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>ed91ed62-4fa2-47c5-936f-a3afde50f160</webElementGuid>
+      <webElementGuid>4f75ce57-fe6f-44dc-9c78-b96e1d267933</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;Email&quot;)</value>
-      <webElementGuid>15c76b3c-0f1c-4ce4-a9b5-062f8e1fc0c0</webElementGuid>
+      <value>id(&quot;giftcard_2_RecipientEmail&quot;)</value>
+      <webElementGuid>ffc9eb41-a7cc-44dd-a9b8-afb2832b4b77</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='Email']</value>
-      <webElementGuid>be10c508-d6c3-424d-b37b-6d4a4277573a</webElementGuid>
+      <value>//input[@id='giftcard_2_RecipientEmail']</value>
+      <webElementGuid>52e5bc3e-4872-49de-a90a-6d0b9151bb97</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='product-details-form']/div/div/div[2]/div[4]/div[2]/input</value>
+      <webElementGuid>3c5ef4af-ed0d-4062-930a-28e18d48db58</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//form/div[2]/input</value>
-      <webElementGuid>07d1e095-498a-4f57-8631-edf27c2014fb</webElementGuid>
+      <value>//div[4]/div[2]/input</value>
+      <webElementGuid>c23015ff-c0fc-4c54-8ea6-cf8fb0a7f795</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@id = 'Email' and @name = 'Email' and @type = 'text']</value>
-      <webElementGuid>6a5bb82f-4b58-4a05-a232-60366d031975</webElementGuid>
+      <value>//input[@id = 'giftcard_2_RecipientEmail' and @name = 'giftcard_2.RecipientEmail' and @type = 'text']</value>
+      <webElementGuid>d1712a5a-25a7-4fc1-b0d6-4d7d7c4366ad</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

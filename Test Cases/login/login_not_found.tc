@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>login_normal</name>
+   <name>login_not_found</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>273b33d7-0be0-4a7b-af39-89c8578d3397</testCaseGuid>
+   <testCaseGuid>49358300-5b70-4ea9-8a6d-a004545a021e</testCaseGuid>
 </TestCaseEntity>

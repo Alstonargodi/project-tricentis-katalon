@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>textfield_email</name>
+   <name>input_Forgot password_button-1 login-button</name>
    <tag></tag>
-   <elementGuidId>a16e2e82-09c3-4b86-a088-4087b8e9cc18</elementGuidId>
+   <elementGuidId>9e43b49c-934b-4d53-a282-b54779006872</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#Email</value>
+         <value>input.button-1.login-button</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='Email']</value>
+         <value>//input[@value='Log in']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,78 +22,62 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>b3fa8baa-bb0f-443b-ae55-0efae3ad349d</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>autofocus</name>
-      <type>Main</type>
-      <value>autofocus</value>
-      <webElementGuid>c1099920-81f3-4d92-ae51-e36f1b59f46c</webElementGuid>
+      <webElementGuid>630f596f-4867-4979-904f-b22eacd39226</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>email</value>
-      <webElementGuid>c09ae70b-41ee-4e42-89e6-ea023689e47d</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>Email</value>
-      <webElementGuid>0b61be14-9f91-4ee1-88f2-91ab02b760a6</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>Email</value>
-      <webElementGuid>7a209120-b636-440d-9489-da398ee8b4c6</webElementGuid>
+      <value>button-1 login-button</value>
+      <webElementGuid>0bc7f145-7bbe-41f9-8f8e-3b4465e5b2e0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>text</value>
-      <webElementGuid>ed91ed62-4fa2-47c5-936f-a3afde50f160</webElementGuid>
+      <value>submit</value>
+      <webElementGuid>beaca44e-abc7-40ee-b4fb-e8254632cc96</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>Log in</value>
+      <webElementGuid>147c4537-b6f0-4f88-a8f2-d846177b6197</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;Email&quot;)</value>
-      <webElementGuid>15c76b3c-0f1c-4ce4-a9b5-062f8e1fc0c0</webElementGuid>
+      <value>/html[1]/body[1]/div[@class=&quot;master-wrapper-page&quot;]/div[@class=&quot;master-wrapper-content&quot;]/div[@class=&quot;master-wrapper-main&quot;]/div[@class=&quot;center-2&quot;]/div[@class=&quot;page login-page&quot;]/div[@class=&quot;page-body&quot;]/div[@class=&quot;customer-blocks&quot;]/div[@class=&quot;returning-wrapper&quot;]/div[@class=&quot;form-fields&quot;]/form[1]/div[@class=&quot;buttons&quot;]/input[@class=&quot;button-1 login-button&quot;]</value>
+      <webElementGuid>7c9c47de-6d78-4919-b785-570edc179990</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='Email']</value>
-      <webElementGuid>be10c508-d6c3-424d-b37b-6d4a4277573a</webElementGuid>
+      <value>//input[@value='Log in']</value>
+      <webElementGuid>cca713af-8765-499f-9fdf-ce565140def7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//form/div[2]/input</value>
-      <webElementGuid>07d1e095-498a-4f57-8631-edf27c2014fb</webElementGuid>
+      <value>//div[5]/input</value>
+      <webElementGuid>9847f896-ce56-4a42-afbd-acc9529281f2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@id = 'Email' and @name = 'Email' and @type = 'text']</value>
-      <webElementGuid>6a5bb82f-4b58-4a05-a232-60366d031975</webElementGuid>
+      <value>//input[@type = 'submit']</value>
+      <webElementGuid>f9916a26-4ae7-4596-85cb-e9232982a2f2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
