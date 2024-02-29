@@ -23,13 +23,25 @@ WebUI.navigateToUrl('https://demowebshop.tricentis.com/')
 
 WebUI.click(findTestObject('Object Repository/loginpage/menu_login'))
 
+WebUI.verifyElementPresent(findTestObject('loginpage/div_login_page'), 0)
+
+WebUI.verifyTextPresent('Welcome, Please Sign In!', false)
+
+WebUI.verifyElementVisible(findTestObject('loginpage/textfield_email'))
+
 WebUI.setText(findTestObject('Object Repository/loginpage/textfield_email'), 'wayanpnm@gmail.com')
+
+WebUI.verifyElementVisible(findTestObject('loginpage/textfield_password'))
 
 WebUI.setEncryptedText(findTestObject('Object Repository/loginpage/textfield_password'), 'RigbBhfdqOBGNlJIWM1ClA==')
 
-WebUI.click(findTestObject('Object Repository/loginpage/label_remmber'))
+WebUI.verifyElementVisible(findTestObject('loginpage/checkbox_rememberme'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/loginpage/checkbox_rememberme'))
+
+WebUI.verifyElementChecked(findTestObject('cartpage/checkbox_rememberme'), 1)
+
+WebUI.verifyElementClickable(findTestObject('loginpage/button_login'))
 
 WebUI.click(findTestObject('Object Repository/loginpage/button_login'))
 
