@@ -31,13 +31,3 @@ WebUI.click(findTestObject('Object Repository/cartpage/label_shopping_cart'))
 
 WebUI.click(findTestObject('Object Repository/cartpage/div_shopping_cart'))
 
-WebUI.click(findTestObject('Object Repository/cartpage/button_Checkout'))
-
-WebUI.click(findTestObject('Object Repository/cartpage/checkbox_termofservice'))
-
-WebUI.click(findTestObject('Object Repository/cartpage/button_Checkout'))
-
-WebUI.click(findTestObject('Object Repository/cartpage/div_checkout'))
-
-WebUI.closeBrowser()
-

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>test</name>
+   <name>transaction_cod</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>c55f85ad-6124-439f-a5d6-26087a86b25d</testCaseGuid>
+   <testCaseGuid>906dbae5-8e84-4de4-8a37-23368dffe104</testCaseGuid>
 </TestCaseEntity>
