@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>cart_confirm_item</name>
+   <name>cart_insert_without_recipient_name</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>ce4b17ec-7f8d-43b8-90ef-39ab4ca3d045</testCaseGuid>
+   <testCaseGuid>27a4c08c-0e85-4ca3-af14-cce3847f8d3a</testCaseGuid>
 </TestCaseEntity>

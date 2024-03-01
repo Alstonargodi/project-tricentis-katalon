@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Log in</name>
+   <name>menu_login</name>
    <tag></tag>
    <elementGuidId>87fbbce0-795f-40ff-8e99-cbdd00870f10</elementGuidId>
    <selectorCollection>

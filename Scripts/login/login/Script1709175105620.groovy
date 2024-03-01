@@ -45,7 +45,3 @@ WebUI.verifyElementClickable(findTestObject('loginpage/button_login'))
 
 WebUI.click(findTestObject('Object Repository/loginpage/button_login'))
 
-WebUI.click(findTestObject('Object Repository/loginpage/div_home_user'))
-
-WebUI.closeBrowser()
-

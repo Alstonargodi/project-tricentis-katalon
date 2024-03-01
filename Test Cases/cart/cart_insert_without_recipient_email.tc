@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>cart_insert_without_recipient_email</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>32f4597f-ccc6-4b8f-b44f-b2c0a47f9c9d</testCaseGuid>
+</TestCaseEntity>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Sub-Total                              _27cc70</name>
+   <name>div_subtotal</name>
    <tag></tag>
    <elementGuidId>f89605c7-fe89-411b-93ce-c6e50ba05e7e</elementGuidId>
    <selectorCollection>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>h2_Payment method</name>
+   <name>title_payment_method</name>
    <tag></tag>
    <elementGuidId>3c1568ed-bdaa-4664-b371-209e25188bf0</elementGuidId>
    <selectorCollection>

@@ -19,29 +19,29 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('login/login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/transactionpage/span_Shopping cart'))
+WebUI.verifyElementPresent(findTestObject('cartpage/div_featured_product'), 0)
 
-WebUI.click(findTestObject('Object Repository/transactionpage/input_I agree with the terms of service and_f529a0'))
+WebUI.click(findTestObject('cartpage/div_product_item'))
 
-WebUI.click(findTestObject('Object Repository/transactionpage/button_Checkout'))
+WebUI.verifyElementPresent(findTestObject('cartpage/textfield_recipient_name'), 0)
 
-WebUI.click(findTestObject('Object Repository/transactionpage/input_Fax number_button-1 new-address-next-_2f210c'))
+WebUI.verifyElementPresent(findTestObject('cartpage/textfield_recipient_email'), 0)
 
-WebUI.click(findTestObject('Object Repository/transactionpage/input_Payment method_paymentmethod'))
+WebUI.verifyElementPresent(findTestObject('cartpage/textfield_sender_name'), 0)
 
-WebUI.click(findTestObject('Object Repository/transactionpage/input__button-1 payment-method-next-step-button'))
+WebUI.verifyElementPresent(findTestObject('cartpage/textfield_sender_email'), 0)
 
-WebUI.click(findTestObject('Object Repository/transactionpage/p_You will pay by COD'))
+WebUI.verifyElementPresent(findTestObject('cartpage/button_quatity_cart'), 0)
 
-WebUI.click(findTestObject('Object Repository/transactionpage/input__button-1 payment-method-next-step-button'))
+WebUI.setText(findTestObject('Object Repository/cartpage/textfield_recipient_name'), 'budi')
 
-WebUI.click(findTestObject('Object Repository/transactionpage/div_subtotal'))
+WebUI.setText(findTestObject('Object Repository/cartpage/textfield_recipient_email'), 'bud@mail.com')
 
-WebUI.click(findTestObject('Object Repository/transactionpage/input__button-1 payment-method-next-step-button'))
+WebUI.setText(findTestObject('cartpage/textfield_sender_name'), 'wayan')
 
-WebUI.click(findTestObject('Object Repository/transactionpage/strong_Your order has been successfully processed'))
+WebUI.setText(findTestObject('cartpage/textfield_sender_email'), 'wayanpnm@gmail.com')
 
-WebUI.click(findTestObject('Object Repository/transactionpage/input__button-1 payment-method-next-step-button'))
+WebUI.click(findTestObject('Object Repository/cartpage/button_quatity_cart'))
 
-WebUI.closeBrowser()
+WebUI.verifyElementVisible(findTestObject('cartpage/label_add_success'))
 

@@ -19,15 +19,29 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('login/login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/cartpage/button_item_product'))
+WebUI.verifyElementPresent(findTestObject('cartpage/div_featured_product'), 0)
+
+WebUI.click(findTestObject('cartpage/div_product_item'))
+
+WebUI.verifyElementPresent(findTestObject('cartpage/textfield_recipient_name'), 0)
+
+WebUI.verifyElementPresent(findTestObject('cartpage/textfield_recipient_email'), 0)
+
+WebUI.verifyElementPresent(findTestObject('cartpage/textfield_sender_name'), 0)
+
+WebUI.verifyElementPresent(findTestObject('cartpage/textfield_sender_email'), 0)
+
+WebUI.verifyElementPresent(findTestObject('cartpage/button_quatity_cart'), 0)
 
 WebUI.setText(findTestObject('Object Repository/cartpage/textfield_recipient_name'), 'budi')
 
 WebUI.setText(findTestObject('Object Repository/cartpage/textfield_recipient_email'), 'bud@mail.com')
 
+WebUI.setText(findTestObject('cartpage/textfield_sender_name'), '')
+
+WebUI.setText(findTestObject('cartpage/textfield_sender_email'), 'wayanpnm@gmail.com')
+
 WebUI.click(findTestObject('Object Repository/cartpage/button_quatity_cart'))
 
-WebUI.click(findTestObject('Object Repository/cartpage/label_shopping_cart'))
-
-WebUI.click(findTestObject('Object Repository/cartpage/div_shopping_cart'))
+WebUI.verifyElementVisible(findTestObject('cartpage/alert_sender_name'))
 
