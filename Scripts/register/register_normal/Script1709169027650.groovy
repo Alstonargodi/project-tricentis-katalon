@@ -21,23 +21,39 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://demowebshop.tricentis.com/')
 
-WebUI.click(findTestObject('Object Repository/registerpage/input_Gender_Gender'))
+WebUI.verifyElementPresent(findTestObject('registerpage/menu_register'), 0)
 
-WebUI.setText(findTestObject('Object Repository/registerpage/input_First name_FirstName'), 'wayan')
+WebUI.click(findTestObject('Object Repository/registerpage/menu_register'))
 
-WebUI.setText(findTestObject('Object Repository/registerpage/input_Last name_LastName'), 'wayan')
+WebUI.verifyElementPresent(findTestObject('registerpage/div_register_form'), 0)
 
-WebUI.setText(findTestObject('Object Repository/registerpage/input_Email_Email'), 'wayanpnm20@gmail.com')
+WebUI.verifyElementPresent(findTestObject('registerpage/radiobtn_gender'), 0)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/registerpage/input_Password_Password'), 'GUcGOF7UcRCnougCxEW6Rw==')
+WebUI.verifyElementPresent(findTestObject('registerpage/textfield_first_name'), 0)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/registerpage/input_Confirm password_ConfirmPassword'), 'GUcGOF7UcRCnougCxEW6Rw==')
+WebUI.verifyElementPresent(findTestObject('registerpage/textfield_last_name'), 0)
+
+WebUI.verifyElementPresent(findTestObject('registerpage/textfield_email'), 0)
+
+WebUI.verifyElementPresent(findTestObject('registerpage/textfield_password'), 0)
+
+WebUI.verifyElementPresent(findTestObject('registerpage/textfield_confirm_password'), 0)
+
+WebUI.click(findTestObject('Object Repository/registerpage/radiobtn_gender'))
+
+WebUI.setText(findTestObject('Object Repository/registerpage/textfield_first_name'), 'wayan')
+
+WebUI.setText(findTestObject('Object Repository/registerpage/textfield_last_name'), 'wayan')
+
+WebUI.setText(findTestObject('Object Repository/registerpage/textfield_email'), 'wayanpnm23@gmail.com')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/registerpage/textfield_password'), 'GUcGOF7UcRCnougCxEW6Rw==')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/registerpage/textfield_confirm_password'), 'GUcGOF7UcRCnougCxEW6Rw==')
 
 WebUI.click(findTestObject('Object Repository/registerpage/button_register'))
 
-WebUI.click(findTestObject('Object Repository/registerpage/div_regristration_completed'))
-
-WebUI.click(findTestObject('Object Repository/registerpage/input_Your registration completed_button-1 _c43114'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/registerpage/label_regristration_completed'))
 
 WebUI.closeBrowser()
 

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Confirm password_ConfirmPassword</name>
+   <name>textfield_email</name>
    <tag></tag>
-   <elementGuidId>9890a0a9-b26e-4d4b-ab5c-de0acbe8b222</elementGuidId>
+   <elementGuidId>9633e6ef-e9ab-42fa-9c38-3e51abd63813</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='ConfirmPassword']</value>
+         <value>//input[@id='Email']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#ConfirmPassword</value>
+         <value>#Email</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,15 +22,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>131faa93-dfcb-4b51-af79-2426590ed785</webElementGuid>
+      <webElementGuid>e361b9eb-428e-4401-8312-cf9fdc4a3790</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>text-box single-line password</value>
-      <webElementGuid>63063385-f50e-47c0-afb3-fc43a4cf757b</webElementGuid>
+      <value>text-box single-line</value>
+      <webElementGuid>03c550db-571a-4d41-8647-93cb3131f940</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,86 +38,78 @@
       <name>data-val</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>e0adad18-904c-417b-ba15-9f6c899b1677</webElementGuid>
+      <webElementGuid>75c62e54-f063-4f6c-9e2f-d3400f2da04b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-val-equalto</name>
+      <name>data-val-email</name>
       <type>Main</type>
-      <value>The password and confirmation password do not match.</value>
-      <webElementGuid>b5411a5c-7404-4a01-8451-34774e643c9a</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-val-equalto-other</name>
-      <type>Main</type>
-      <value>*.Password</value>
-      <webElementGuid>3902fdc2-8904-4386-bc45-dc90598575b5</webElementGuid>
+      <value>Wrong email</value>
+      <webElementGuid>f8cab037-17b4-4839-833b-eec754b485ef</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-val-required</name>
       <type>Main</type>
-      <value>Password is required.</value>
-      <webElementGuid>8cdde216-4b64-4101-af7b-b7085d574290</webElementGuid>
+      <value>Email is required.</value>
+      <webElementGuid>299b65bd-d353-4a30-be6e-f4b3732ebced</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>ConfirmPassword</value>
-      <webElementGuid>5e09861e-84a1-470f-b1fb-f39525d3f82b</webElementGuid>
+      <value>Email</value>
+      <webElementGuid>db46e42f-9e4e-44cf-bca9-954f25001de4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>ConfirmPassword</value>
-      <webElementGuid>b9a7383f-f55a-4f8e-8bb7-dc64b24268d9</webElementGuid>
+      <value>Email</value>
+      <webElementGuid>d2d18cd1-6155-4ad0-bcb1-4f1135cf6e67</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>password</value>
-      <webElementGuid>d4b594ff-dcd1-4032-86e0-4e518909483e</webElementGuid>
+      <value>text</value>
+      <webElementGuid>10cf043a-6e72-4ee4-91c8-0de6855e8fe7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;ConfirmPassword&quot;)</value>
-      <webElementGuid>33b13751-69c8-45ce-a2f9-1d273eeae23d</webElementGuid>
+      <value>id(&quot;Email&quot;)</value>
+      <webElementGuid>60595b06-436b-405f-9e7f-129ae130970e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='ConfirmPassword']</value>
-      <webElementGuid>3c55db7f-6ff3-40dd-a3ec-e6c31870e384</webElementGuid>
+      <value>//input[@id='Email']</value>
+      <webElementGuid>d84a5a68-5404-45e1-90e9-38b4bb77370d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/div[2]/div[2]/input</value>
-      <webElementGuid>cb8e29a4-dd26-421b-951e-17bc1f9af55e</webElementGuid>
+      <value>//div[2]/div[2]/div[4]/input</value>
+      <webElementGuid>f4563471-b7c7-4032-a384-6ab1a7963c35</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@id = 'ConfirmPassword' and @name = 'ConfirmPassword' and @type = 'password']</value>
-      <webElementGuid>161c669c-ed80-410d-afba-a817c63d67ed</webElementGuid>
+      <value>//input[@id = 'Email' and @name = 'Email' and @type = 'text']</value>
+      <webElementGuid>b75df0ed-d145-449f-b225-cf7c62795ba6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>radiobutton_gender</name>
+   <name>div_gender</name>
    <tag></tag>
    <elementGuidId>e4607db5-f96b-4eb6-9310-53f14098449f</elementGuidId>
    <selectorCollection>

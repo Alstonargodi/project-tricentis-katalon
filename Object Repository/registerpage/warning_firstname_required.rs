@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_The password should have at least 6 ch_0f50d2</name>
+   <name>warning_firstname_required</name>
    <tag></tag>
-   <elementGuidId>a8d51bd6-4699-4b8c-8eff-0c3775539638</elementGuidId>
+   <elementGuidId>95c139fb-1cdc-4fec-bd07-575ca3468cc6</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[4]/following::span[2]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[1]/following::span[2]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,23 +22,23 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>1cbe5c29-7cb4-498f-b998-c694cf9080fa</webElementGuid>
+      <webElementGuid>a9a5d8ab-0ce4-436e-b4b1-5bd43e975221</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>for</name>
       <type>Main</type>
-      <value>Password</value>
-      <webElementGuid>6e75aeff-29b1-465f-ba24-d893ecf8f345</webElementGuid>
+      <value>FirstName</value>
+      <webElementGuid>7587b258-ddd0-49be-8bf6-9e2c9c653ef0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>The password should have at least 6 characters.</value>
-      <webElementGuid>03117aec-6106-44ee-b2b5-eb4bccddfe3e</webElementGuid>
+      <value>First name is required.</value>
+      <webElementGuid>6b513621-cabc-4340-b2db-244ae715d877</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,47 +46,47 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[@class=&quot;master-wrapper-page&quot;]/div[@class=&quot;master-wrapper-content&quot;]/div[@class=&quot;master-wrapper-main&quot;]/div[@class=&quot;center-2&quot;]/form[1]/div[@class=&quot;page registration-page&quot;]/div[@class=&quot;page-body&quot;]/div[@class=&quot;fieldset&quot;]/div[@class=&quot;form-fields&quot;]/div[@class=&quot;inputs&quot;]/span[@class=&quot;field-validation-error&quot;]/span[1]</value>
-      <webElementGuid>2df7f9e5-336f-4643-b207-08e67cff9a6f</webElementGuid>
+      <webElementGuid>fefd1e6f-cab3-458b-aedb-0d235a505db0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[4]/following::span[2]</value>
-      <webElementGuid>7f87a6f6-1700-4aa1-b410-59bbd94c1b97</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[1]/following::span[2]</value>
+      <webElementGuid>fcf029da-5ed4-41b3-848e-8bf03763eeab</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password:'])[1]/following::span[3]</value>
-      <webElementGuid>266d29ec-4083-4969-b153-080a3e39a01f</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='First name:'])[1]/following::span[3]</value>
+      <webElementGuid>9e152e07-670d-4378-a820-5a40a1ca5698</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirm password:'])[1]/preceding::span[1]</value>
-      <webElementGuid>bac0bfaa-3f5a-4d60-9791-5f91bf01e93f</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Last name:'])[1]/preceding::span[1]</value>
+      <webElementGuid>91c07776-4f8a-4711-a3ea-da60b9ea266e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[5]/preceding::span[1]</value>
-      <webElementGuid>38f7e072-3ef7-4af7-8141-b7e3dc053017</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[2]/preceding::span[1]</value>
+      <webElementGuid>5c80c94a-9c33-4ac1-8357-7b534e1c8c5e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='The password should have at least 6 characters.']/parent::*</value>
-      <webElementGuid>73c0af76-8fdf-441b-803f-7ac87a38398a</webElementGuid>
+      <value>//*/text()[normalize-space(.)='First name is required.']/parent::*</value>
+      <webElementGuid>5475fc6f-4802-4177-b331-9b73cc0f5665</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,14 +94,14 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span[2]/span</value>
-      <webElementGuid>a13a9767-4c89-4b5f-9def-5afc1459f9bc</webElementGuid>
+      <webElementGuid>9077c279-7b33-4613-9425-7675b306525f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//span[(text() = 'The password should have at least 6 characters.' or . = 'The password should have at least 6 characters.')]</value>
-      <webElementGuid>8f60f6c8-37d3-4e14-8fd3-1ca0d833f2da</webElementGuid>
+      <value>//span[(text() = 'First name is required.' or . = 'First name is required.')]</value>
+      <webElementGuid>f8a3ab0b-dd2e-4b81-92b3-857aa635c8de</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

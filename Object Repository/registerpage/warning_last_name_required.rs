@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_regristration_completed</name>
+   <name>warning_last_name_required</name>
    <tag></tag>
-   <elementGuidId>0db4d399-97b3-49a7-8ad1-103aa56bca77</elementGuidId>
+   <elementGuidId>1421ed40-f744-4d65-8b22-29575734d4e9</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Register'])[1]/following::div[2]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[2]/following::span[2]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>div.result</value>
+         <value>span.field-validation-error > span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,93 +21,87 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
-      <webElementGuid>864d8a18-dc79-40e0-ac6a-2b1f8c2d0265</webElementGuid>
+      <value>span</value>
+      <webElementGuid>f599614e-7f43-4feb-9e4c-246f1d8c9984</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>for</name>
       <type>Main</type>
-      <value>result</value>
-      <webElementGuid>91ccd2d3-1359-40b1-819d-0588dc9d7164</webElementGuid>
+      <value>LastName</value>
+      <webElementGuid>4526c50e-f204-473f-87d2-be08eb445c54</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>
-            Your registration completed
-        </value>
-      <webElementGuid>4cb0f84d-7f88-4360-82ff-b0d7958e26ec</webElementGuid>
+      <value>Last name is required.</value>
+      <webElementGuid>2ebb8a7d-a6ae-48ed-8a98-9866e8a1cf22</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/div[@class=&quot;master-wrapper-page&quot;]/div[@class=&quot;master-wrapper-content&quot;]/div[@class=&quot;master-wrapper-main&quot;]/div[@class=&quot;center-2&quot;]/div[@class=&quot;page registration-result-page&quot;]/div[@class=&quot;page-body&quot;]/div[@class=&quot;result&quot;]</value>
-      <webElementGuid>321837ef-c7b8-4b32-a946-b2234261bb6f</webElementGuid>
+      <value>/html[1]/body[1]/div[@class=&quot;master-wrapper-page&quot;]/div[@class=&quot;master-wrapper-content&quot;]/div[@class=&quot;master-wrapper-main&quot;]/div[@class=&quot;center-2&quot;]/form[1]/div[@class=&quot;page registration-page&quot;]/div[@class=&quot;page-body&quot;]/div[@class=&quot;fieldset&quot;]/div[@class=&quot;form-fields&quot;]/div[@class=&quot;inputs&quot;]/span[@class=&quot;field-validation-error&quot;]/span[1]</value>
+      <webElementGuid>b68e87a7-6793-4138-994a-f9f48a45982a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Register'])[1]/following::div[2]</value>
-      <webElementGuid>5fe49077-e7fa-42f2-8846-06b381b86e72</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[2]/following::span[2]</value>
+      <webElementGuid>d58a6396-e343-40a9-b1c5-d053b12419f3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Wait...'])[1]/following::div[6]</value>
-      <webElementGuid>77fca1d5-07df-4192-a83f-1cac44b89617</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Last name:'])[1]/following::span[3]</value>
+      <webElementGuid>54098d6d-bddc-4413-88a0-bec108caed43</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Information'])[1]/preceding::div[2]</value>
-      <webElementGuid>e60c9831-ad1a-47b1-8e8d-80fbce7cb075</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email:'])[1]/preceding::span[1]</value>
+      <webElementGuid>bbff6c22-1ed1-4cc7-a89e-863aee60abf9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sitemap'])[1]/preceding::div[2]</value>
-      <webElementGuid>e328ceb1-bc4b-4703-8891-e5983b6cc46e</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[3]/preceding::span[1]</value>
+      <webElementGuid>c80a018a-2fec-43b7-ab0d-224db8823998</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Your registration completed']/parent::*</value>
-      <webElementGuid>3c98571f-6d9c-4ac1-b289-8f70494f303d</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Last name is required.']/parent::*</value>
+      <webElementGuid>dd594988-9e66-4c63-8b32-5dcbca9555e0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/div[2]/div</value>
-      <webElementGuid>c4227043-5af3-453d-aac2-5aaefe241850</webElementGuid>
+      <value>//span[2]/span</value>
+      <webElementGuid>89fb6863-1b77-425d-9bc4-d67d2a82748e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[(text() = '
-            Your registration completed
-        ' or . = '
-            Your registration completed
-        ')]</value>
-      <webElementGuid>3bf781d5-8f45-4073-bed6-f9622d65d7d2</webElementGuid>
+      <value>//span[(text() = 'Last name is required.' or . = 'Last name is required.')]</value>
+      <webElementGuid>3d3f5782-2de9-423c-8d6d-4b6a44dd6701</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

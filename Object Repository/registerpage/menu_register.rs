@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>menuitem_register</name>
+   <name>menu_register</name>
    <tag></tag>
    <elementGuidId>12b697a9-7b44-4ff5-9f43-7567deb08c39</elementGuidId>
    <selectorCollection>

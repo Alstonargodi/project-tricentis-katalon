@@ -21,35 +21,40 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://demowebshop.tricentis.com/')
 
-WebUI.click(findTestObject('Object Repository/registerpage/menuitem_register'))
+WebUI.verifyElementPresent(findTestObject('registerpage/menu_register'), 0)
 
-WebUI.closeBrowser()
+WebUI.click(findTestObject('Object Repository/registerpage/menu_register'))
 
-WebUI.openBrowser('')
+WebUI.verifyElementPresent(findTestObject('registerpage/div_register_form'), 0)
 
-WebUI.navigateToUrl('https://demowebshop.tricentis.com/')
+WebUI.verifyElementPresent(findTestObject('registerpage/radiobtn_gender'), 0)
 
-WebUI.click(findTestObject('Object Repository/registerpage/menuitem_register'))
+WebUI.click(findTestObject('Object Repository/registerpage/radiobtn_gender'))
 
-WebUI.click(findTestObject('Object Repository/registerpage/div_gender_male'))
+WebUI.verifyElementPresent(findTestObject('registerpage/textfield_first_name'), 0)
 
-WebUI.click(findTestObject('Object Repository/registerpage/input_Gender_Gender'))
+WebUI.setText(findTestObject('Object Repository/registerpage/textfield_first_name'), 'wayan')
 
-WebUI.setText(findTestObject('Object Repository/registerpage/input_First name_FirstName'), 'wayan')
+WebUI.verifyElementPresent(findTestObject('registerpage/textfield_last_name'), 0)
 
-WebUI.setText(findTestObject('Object Repository/registerpage/input_Last name_LastName'), 'wayan')
+WebUI.setText(findTestObject('Object Repository/registerpage/textfield_last_name'), 'wayan')
 
-WebUI.setText(findTestObject('Object Repository/registerpage/input_Email_Email'), 'wayanpnm4@mail.com')
+WebUI.verifyElementPresent(findTestObject('registerpage/textfield_email'), 0)
+
+WebUI.setText(findTestObject('Object Repository/registerpage/textfield_email'), 'wayanpnm4@mail.com')
 
 WebUI.click(findTestObject('Object Repository/registerpage/div_confirm_password'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/registerpage/input_Password_Password'), 'tzH6RvlfSTg=')
+WebUI.verifyElementPresent(findTestObject('registerpage/textfield_email'), 0)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/registerpage/input_Confirm password_ConfirmPassword'), 'tzH6RvlfSTg=')
+WebUI.setEncryptedText(findTestObject('Object Repository/registerpage/textfield_password'), 'tzH6RvlfSTg=')
 
-WebUI.click(findTestObject('Object Repository/registerpage/span_The password should have at least 6 ch_0f50d2'))
+WebUI.verifyElementPresent(findTestObject('registerpage/textfield_confirm_password'), 0)
 
-WebUI.click(findTestObject('Object Repository/registerpage/button_register'))
+WebUI.setEncryptedText(findTestObject('Object Repository/registerpage/textfield_confirm_password'), 'tzH6RvlfSTg=')
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/registerpage/warning_password_length'), 
+    0)
 
 WebUI.closeBrowser()
 

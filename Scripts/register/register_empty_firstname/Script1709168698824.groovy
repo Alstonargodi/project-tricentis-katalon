@@ -21,21 +21,35 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://demowebshop.tricentis.com/')
 
-WebUI.click(findTestObject('Object Repository/registerpage/menuitem_register'))
+WebUI.verifyElementPresent(findTestObject('registerpage/menu_register'), 0)
 
-WebUI.click(findTestObject('Object Repository/registerpage/input_Gender_Gender'))
+WebUI.click(findTestObject('Object Repository/registerpage/menu_register'))
 
-WebUI.setText(findTestObject('Object Repository/registerpage/input_Last name_LastName'), 'wayan')
+WebUI.verifyElementPresent(findTestObject('registerpage/div_register_form'), 0)
 
-WebUI.setText(findTestObject('Object Repository/registerpage/input_Email_Email'), 'wayanpnm4@mail.com')
+WebUI.verifyElementPresent(findTestObject('registerpage/radiobtn_gender'), 0)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/registerpage/input_Password_Password'), 'aeHFOx8jV/A=')
+WebUI.verifyElementPresent(findTestObject('registerpage/textfield_first_name'), 0)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/registerpage/input_Confirm password_ConfirmPassword'), 'aeHFOx8jV/A=')
+WebUI.verifyElementPresent(findTestObject('registerpage/textfield_last_name'), 0)
+
+WebUI.verifyElementPresent(findTestObject('registerpage/textfield_email'), 0)
+
+WebUI.verifyElementPresent(findTestObject('registerpage/textfield_email'), 0)
+
+WebUI.click(findTestObject('Object Repository/registerpage/radiobtn_gender'))
+
+WebUI.setText(findTestObject('Object Repository/registerpage/textfield_last_name'), 'wayan')
+
+WebUI.setText(findTestObject('Object Repository/registerpage/textfield_email'), 'wayanpnm4@mail.com')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/registerpage/textfield_password'), 'aeHFOx8jV/A=')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/registerpage/textfield_confirm_password'), 'aeHFOx8jV/A=')
 
 WebUI.click(findTestObject('Object Repository/registerpage/button_register'))
 
-WebUI.click(findTestObject('Object Repository/registerpage/span_First name is required'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/registerpage/warning_firstname_required'))
 
 WebUI.closeBrowser()
 

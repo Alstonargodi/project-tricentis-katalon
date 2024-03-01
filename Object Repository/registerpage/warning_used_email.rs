@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>li_The specified email already exists</name>
+   <name>warning_used_email</name>
    <tag></tag>
-   <elementGuidId>165f2c5a-6bbf-4d6d-bb62-574abe4b7514</elementGuidId>
+   <elementGuidId>21345789-b17c-42b7-9a0f-4bd85b7b7da4</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>li</value>
-      <webElementGuid>dc83fe96-2783-47af-b7df-a222c46d0ddb</webElementGuid>
+      <webElementGuid>5359d226-a938-4f96-a9dd-0be74a054c75</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>text</name>
       <type>Main</type>
       <value>The specified email already exists</value>
-      <webElementGuid>cb8e2f7b-cd88-4af7-a2d1-bb8b8876a670</webElementGuid>
+      <webElementGuid>e4d2ec25-6b38-4bcb-8d2f-4352482c1f21</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[@class=&quot;master-wrapper-page&quot;]/div[@class=&quot;master-wrapper-content&quot;]/div[@class=&quot;master-wrapper-main&quot;]/div[@class=&quot;center-2&quot;]/form[1]/div[@class=&quot;page registration-page&quot;]/div[@class=&quot;page-body&quot;]/div[@class=&quot;message-error&quot;]/div[@class=&quot;validation-summary-errors&quot;]/ul[1]/li[1]</value>
-      <webElementGuid>307d58c7-e8dc-471d-a1d6-519dfe4fef9e</webElementGuid>
+      <webElementGuid>70c6356d-d6ed-4285-b37a-01ac3cf8f801</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Register'])[2]/following::li[1]</value>
-      <webElementGuid>aacfccc8-37d1-404b-9b88-6aceac731e9a</webElementGuid>
+      <webElementGuid>32b6d63f-242a-43d4-b2cf-98a0d186cab8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Wait...'])[1]/following::li[1]</value>
-      <webElementGuid>ae5b3617-bf14-4b73-972a-365b495002cc</webElementGuid>
+      <webElementGuid>9e29a637-9905-4e8f-aa8d-95c5e354c562</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Your Personal Details'])[1]/preceding::li[1]</value>
-      <webElementGuid>5f74feb5-402b-403e-be43-feac28ac4d9d</webElementGuid>
+      <webElementGuid>d100873a-7ae7-4b57-a9bb-997f768a1ac7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Gender:'])[1]/preceding::li[1]</value>
-      <webElementGuid>7f64579b-8aaa-4865-8539-d214b2643d13</webElementGuid>
+      <webElementGuid>af720082-671f-455c-ba49-bb6e9571e4d0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='The specified email already exists']/parent::*</value>
-      <webElementGuid>d73de7de-3975-445a-b215-4b2d47109a21</webElementGuid>
+      <webElementGuid>2070be55-1453-4e92-8f77-cf19e2abf478</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form/div/div[2]/div/div/ul/li</value>
-      <webElementGuid>c39958e9-f47c-4a34-aba1-de2e44206d29</webElementGuid>
+      <webElementGuid>49ad375e-0ea4-4de9-acf7-060d3e10a7c5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +94,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//li[(text() = 'The specified email already exists' or . = 'The specified email already exists')]</value>
-      <webElementGuid>7418812f-4626-4745-b670-f0c3e7233551</webElementGuid>
+      <webElementGuid>919bea66-20bc-42f1-b3d4-a0d9c34df7c8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
