@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_confirm_success</name>
+   <name>button_next_confirm</name>
    <tag></tag>
-   <elementGuidId>92ddfe45-8d52-4728-860b-4253e20c9521</elementGuidId>
+   <elementGuidId>08111e0e-4a82-45f0-a740-f5892a993213</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>5d9ffc48-d968-496c-80cc-9a15139a4794</webElementGuid>
+      <webElementGuid>3d3d2a90-7575-4e95-813a-2f51eca78e22</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,15 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>f3c7e361-e8ca-4b99-8dea-c059b4b57744</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>value</name>
-      <type>Main</type>
-      <value>Continue</value>
-      <webElementGuid>01393ffc-0183-423e-8296-4aab1a4daf77</webElementGuid>
+      <webElementGuid>6ea2b792-d89b-4482-b2e8-d649a5e5047b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>button-1 payment-info-next-step-button</value>
-      <webElementGuid>ee6f40ed-ce98-4a7f-9f0e-7aff7d178d16</webElementGuid>
+      <webElementGuid>2dcc1fc8-2a3a-4556-815a-e247d900a191</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,15 +46,15 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PaymentInfo.save()</value>
-      <webElementGuid>914ca5c2-df83-4443-9da9-95175509e875</webElementGuid>
+      <webElementGuid>55f7da66-54c2-4262-9205-5c580c14ab09</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath</name>
+      <name>value</name>
       <type>Main</type>
-      <value>id(&quot;payment-info-buttons-container&quot;)/input[@class=&quot;button-1 payment-info-next-step-button&quot;]</value>
-      <webElementGuid>b30a8b1a-4d4a-4066-b1bb-0d0623232e20</webElementGuid>
+      <value>Continue</value>
+      <webElementGuid>caef3a38-eb14-4c1c-b258-de605ba4ac65</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +62,15 @@
       <name>disabled</name>
       <type>Main</type>
       <value>disabled</value>
-      <webElementGuid>a5b0990d-c743-4688-8af2-075756ddd1da</webElementGuid>
+      <webElementGuid>e1ed4729-2146-4c0b-ba54-ca3b8ebc0614</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;payment-info-buttons-container&quot;)/input[@class=&quot;button-1 payment-info-next-step-button&quot;]</value>
+      <webElementGuid>78a91f21-5baf-4f4f-990b-cbe98fe6a846</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//input[@value='Continue'])[3]</value>
-      <webElementGuid>8915d5fb-5943-4a54-a87b-264af0ec106c</webElementGuid>
+      <webElementGuid>77934e2b-b921-4f8b-b5a7-9a989433be74</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='payment-info-buttons-container']/input</value>
-      <webElementGuid>db2bca7d-1ffd-44b1-aadb-61628166ecad</webElementGuid>
+      <webElementGuid>28f5298b-352e-45c9-ba23-d082aca11951</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[3]/div[2]/div/input</value>
-      <webElementGuid>3130b333-9a41-4ba9-a100-d3cd70e70141</webElementGuid>
+      <webElementGuid>3a42f58a-f9a0-4fe8-9a75-a13392cee7b7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,22 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'button']</value>
-      <webElementGuid>8751f6ba-ca5d-4cf1-b6d5-31102cd464ae</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//input[@value='Continue']</value>
-      <webElementGuid>e2030aab-139c-45e9-ad0f-669c29b22f9a</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div[2]/input</value>
-      <webElementGuid>2d18c6c4-de16-44c2-b992-f6eccd6b8072</webElementGuid>
+      <webElementGuid>c461eab9-e6d0-4b80-a7bb-39663e916cda</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
