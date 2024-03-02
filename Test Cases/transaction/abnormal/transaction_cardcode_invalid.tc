@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>transaction_credit_empty_name</name>
+   <name>transaction_cardcode_invalid</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>bf8d034f-a8f4-4616-a8b1-9396d0fdd359</testCaseGuid>
+   <testCaseGuid>7add7cb6-ee63-4a2c-ad71-780a0a54f84f</testCaseGuid>
 </TestCaseEntity>

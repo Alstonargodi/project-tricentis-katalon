@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>transaction_cardname_empty</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bf8d034f-a8f4-4616-a8b1-9396d0fdd359</testCaseGuid>
+</TestCaseEntity>

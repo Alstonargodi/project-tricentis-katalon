@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>alert_enter_cardholder_name</name>
+   <name>alert_cardnumber_invalid</name>
    <tag></tag>
-   <elementGuidId>48683231-5111-4c46-9853-c8fb1f1d6fb3</elementGuidId>
+   <elementGuidId>c6ed4796-e0d5-4b6f-bd62-ce54d6f69ded</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -22,15 +22,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>li</value>
-      <webElementGuid>e9537381-af44-47c1-b872-ff7aa1822038</webElementGuid>
+      <webElementGuid>5f9bb300-2b11-4351-aac5-bc56e153fa62</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Enter cardholder name</value>
-      <webElementGuid>17ffd905-d7c5-4c34-83d6-5f8e92639ad0</webElementGuid>
+      <value>Wrong card number</value>
+      <webElementGuid>c2c161f0-9275-4838-8988-d32ce1eabaae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;checkout-payment-info-load&quot;)/div[@class=&quot;checkout-data&quot;]/div[@class=&quot;section payment-info&quot;]/div[@class=&quot;message-error&quot;]/div[@class=&quot;validation-summary-errors&quot;]/ul[1]/li[1]</value>
-      <webElementGuid>96a44bda-508c-48ef-ad02-6d7014300aab</webElementGuid>
+      <webElementGuid>504a6f66-d60f-4db5-8ce3-5fb0a26f1a78</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='checkout-payment-info-load']/div/div/div[2]/div/ul/li</value>
-      <webElementGuid>408b9f6d-d0e6-4245-96aa-b90d16a1cd07</webElementGuid>
+      <webElementGuid>eada9769-8211-4880-9500-77a9051727b5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,15 +54,15 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Card code'])[1]/following::li[1]</value>
-      <webElementGuid>bda77fd8-04d2-4e7f-9dce-6a64fb23f0bb</webElementGuid>
+      <webElementGuid>d6a17728-9524-4963-8882-8f719fc5b9c2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Wrong card number'])[1]/preceding::li[1]</value>
-      <webElementGuid>0f172440-5ad8-4a46-93f6-4e03df47d6f3</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Wrong card code'])[1]/preceding::li[1]</value>
+      <webElementGuid>2050fbe8-1d4d-47cf-a0ed-35f6434f0fa0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,15 +70,15 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='«'])[2]/preceding::li[2]</value>
-      <webElementGuid>2c11bfa4-0eb0-4fab-b0d2-3a6ccd352992</webElementGuid>
+      <webElementGuid>97edaa67-c9c9-4593-beae-35b8618958df</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Enter cardholder name']/parent::*</value>
-      <webElementGuid>63388a1c-02df-45b6-8594-35cfb097c55b</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Wrong card number']/parent::*</value>
+      <webElementGuid>0f6fdd98-7c5c-446e-971e-ea4ac1e96a53</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,14 +86,14 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form/div/div/div/div[2]/div/ul/li</value>
-      <webElementGuid>34b39ba6-fe0a-4963-b702-3bf82ed12caf</webElementGuid>
+      <webElementGuid>0e827200-5acf-4d41-ac55-ca373843fdc8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//li[(text() = 'Enter cardholder name' or . = 'Enter cardholder name')]</value>
-      <webElementGuid>f685e986-961e-4a27-838b-e05692ed5393</webElementGuid>
+      <value>//li[(text() = 'Wrong card number' or . = 'Wrong card number')]</value>
+      <webElementGuid>ef2035b2-9798-4f50-8546-3310b53e6823</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -43,9 +43,9 @@ WebUI.verifyElementPresent(findTestObject('transactionpage/div_payment_method'),
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/transactionpage/option_credit_card'), 'Visa', true)
 
-WebUI.setText(findTestObject('transactionpage/textfield_card_holder_name'), 'wayan')
+WebUI.setText(findTestObject('transactionpage/textfield_card_holder_name'), '')
 
-WebUI.setText(findTestObject('transactionpage/textfield_card_number'), '15151')
+WebUI.setText(findTestObject('transactionpage/textfield_card_number'), '4001919257537193')
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/transactionpage/option_month'), '2026', true)
 
@@ -55,7 +55,7 @@ WebUI.setText(findTestObject('transactionpage/textfield_card_code'), '3525')
 
 WebUI.click(findTestObject('transactionpage/button_next_confirm'))
 
-WebUI.verifyElementPresent(findTestObject('transactionpage/alert_cardnumber_invalid'), 0)
+WebUI.verifyElementPresent(findTestObject('transactionpage/alert_cardname_invalid'), 0)
 
 WebUI.closeBrowser()
 
