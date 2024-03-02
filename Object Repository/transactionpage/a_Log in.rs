@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Shopping cart</name>
+   <name>a_Log in</name>
    <tag></tag>
-   <elementGuidId>f4bfaa14-0d51-4d6c-a4ce-e0bc5dc896f2</elementGuidId>
+   <elementGuidId>17d566b2-d3bb-49b3-a3bf-ea141373ede0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>span.cart-label</value>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Log in')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//li[@id='topcartlink']/a/span</value>
+         <key>CSS</key>
+         <value>a.ico-login</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,95 +21,103 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
-      <webElementGuid>6139b704-da15-47ae-8624-c47713998997</webElementGuid>
+      <value>a</value>
+      <webElementGuid>f5bbf1c0-879b-49d8-a06b-f8f66be1f684</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/login</value>
+      <webElementGuid>90811b15-d515-4af3-a414-7f978e06ebab</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>cart-label</value>
-      <webElementGuid>22e4dcae-c042-42eb-9890-8b6cd07db896</webElementGuid>
+      <value>ico-login</value>
+      <webElementGuid>441b2d24-38ad-499e-b5a9-3e2f2ddbdd7e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Shopping cart</value>
-      <webElementGuid>798408ee-aae5-4609-ad7a-5774bea8fcdc</webElementGuid>
+      <value>Log in</value>
+      <webElementGuid>b9584721-0804-4ec2-b5d3-8430ef443d9c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;topcartlink&quot;)/a[@class=&quot;ico-cart&quot;]/span[@class=&quot;cart-label&quot;]</value>
-      <webElementGuid>c844eb45-1d99-48e7-b416-fe3ed6df627d</webElementGuid>
+      <value>/html[1]/body[1]/div[@class=&quot;master-wrapper-page&quot;]/div[@class=&quot;master-wrapper-content&quot;]/div[@class=&quot;header&quot;]/div[@class=&quot;header-links-wrapper&quot;]/div[@class=&quot;header-links&quot;]/ul[1]/li[2]/a[@class=&quot;ico-login&quot;]</value>
+      <webElementGuid>0f072949-1389-43f4-96d7-bd4e4ca1b612</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
+      <name>xpath:link</name>
       <type>Main</type>
-      <value>//li[@id='topcartlink']/a/span</value>
-      <webElementGuid>e6613bea-4644-4be2-b0ab-3603631f7e7d</webElementGuid>
+      <value>//a[contains(text(),'Log in')]</value>
+      <webElementGuid>ac102be4-4f75-49cb-8d7a-0005b6d6ef81</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Log out'])[1]/following::span[1]</value>
-      <webElementGuid>01d1a838-c476-4bbc-a2b9-2471bdb834c8</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Register'])[1]/following::a[1]</value>
+      <webElementGuid>5bb0a66c-0e66-4f7e-8590-393af8bee1ea</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='wayan_pnm@mail.com'])[1]/following::span[1]</value>
-      <webElementGuid>011d743a-b212-4486-9f6b-6a7b0b43a97c</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Shopping cart'])[1]/preceding::a[1]</value>
+      <webElementGuid>4e35ce4b-e132-4538-9ad0-b92c4016e262</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='(1)'])[1]/preceding::span[1]</value>
-      <webElementGuid>a58163f0-4e85-462e-a830-e865bd7c23a0</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='(0)'])[1]/preceding::a[1]</value>
+      <webElementGuid>1b2e9403-cfea-4b55-8f0b-02dd99017337</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Wishlist'])[1]/preceding::span[2]</value>
-      <webElementGuid>c163ffc7-a363-48f3-94fa-27f64cae1ad3</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Log in']/parent::*</value>
+      <webElementGuid>b4425f1e-78ce-4ee6-909f-7ef3be803ddd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
+      <name>xpath:href</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Shopping cart']/parent::*</value>
-      <webElementGuid>1f91a01d-cbb9-4af0-ac51-d45f4ad29b0b</webElementGuid>
+      <value>//a[contains(@href, '/login')]</value>
+      <webElementGuid>ff0897f7-6bf7-4721-b1a5-b7c07806b760</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//a/span</value>
-      <webElementGuid>64f52fb1-d7ac-4611-afb1-8121da0216db</webElementGuid>
+      <value>//li[2]/a</value>
+      <webElementGuid>6417ed88-a066-4427-89af-ad553d050326</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//span[(text() = 'Shopping cart' or . = 'Shopping cart')]</value>
-      <webElementGuid>43213cd2-fa10-4522-a01d-cba2c77164ed</webElementGuid>
+      <value>//a[@href = '/login' and (text() = 'Log in' or . = 'Log in')]</value>
+      <webElementGuid>e3e30573-309e-403c-ad1d-9bf1b14e6590</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

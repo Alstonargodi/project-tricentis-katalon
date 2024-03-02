@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>option_credit_card</name>
+   <tag></tag>
+   <elementGuidId>be92e390-3d83-4486-89a3-04615a476a48</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='CreditCardType']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#CreditCardType</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>33501fc2-0e03-41de-b100-5b58b5427120</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dropdownlists</value>
+      <webElementGuid>b0dd31bd-8b1d-4baf-a302-5dd7e72510fc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>CreditCardType</value>
+      <webElementGuid>4c360051-e48c-47ab-98be-55a33b9ac44f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>CreditCardType</value>
+      <webElementGuid>a5762be7-399b-4592-ae90-19913d64eec0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Visa
+Master card
+Discover
+Amex
+</value>
+      <webElementGuid>79dd6a9f-d0ef-49b5-a5c5-b2439cfdbe18</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;CreditCardType&quot;)</value>
+      <webElementGuid>517768fd-7e5d-4064-8bf1-45325c84b7a9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='CreditCardType']</value>
+      <webElementGuid>c2dd60d9-339a-498e-ab54-506ab00e00f7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='checkout-payment-info-load']/div/div/div/table/tbody/tr/td[2]/select</value>
+      <webElementGuid>ba7ec44c-d02a-4e40-8ba1-c76968ed9b7d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select credit card'])[1]/following::select[1]</value>
+      <webElementGuid>65f462b9-287c-4d14-a24e-3c552587330a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cardholder name'])[1]/preceding::select[1]</value>
+      <webElementGuid>30761fff-8ab4-4347-b1b1-71ef464d9dcf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[2]/select</value>
+      <webElementGuid>a36b3b47-a036-41c2-9883-c53e1c589d5a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'CreditCardType' and @name = 'CreditCardType' and (text() = 'Visa
+Master card
+Discover
+Amex
+' or . = 'Visa
+Master card
+Discover
+Amex
+')]</value>
+      <webElementGuid>14acee7d-91ef-4710-bda7-2fbd20cd9bdb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
