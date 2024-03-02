@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('login/login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('login/normal/login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('cartpage/div_featured_product'), 0)
 
@@ -41,7 +41,7 @@ WebUI.setText(findTestObject('cartpage/textfield_sender_name'), 'wayan')
 
 WebUI.setText(findTestObject('cartpage/textfield_sender_email'), 'wayanpnm@gmail.com')
 
-WebUI.click(findTestObject('Object Repository/cartpage/button_quatity_cart'))
+WebUI.click(findTestObject('cartpage/button_add_wishlist'))
 
-WebUI.verifyElementVisible(findTestObject('cartpage/label_add_success'))
+WebUI.verifyElementVisible(findTestObject('cartpage/label_success_wishlist'))
 
