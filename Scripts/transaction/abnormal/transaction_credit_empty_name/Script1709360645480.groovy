@@ -55,17 +55,7 @@ WebUI.setText(findTestObject('transactionpage/textfield_card_code'), '3525')
 
 WebUI.click(findTestObject('transactionpage/button_next_confirm'))
 
-WebUI.verifyElementPresent(findTestObject('transactionpage/div_confirm_order'), 0)
-
-WebUI.verifyElementPresent(findTestObject('transactionpage/div_billing_address_confirm'), 0)
-
-WebUI.verifyElementPresent(findTestObject('transactionpage/item_confirm'), 0)
-
-WebUI.verifyElementPresent(findTestObject('transactionpage/button_confirm_finish'), 0)
-
-WebUI.click(findTestObject('transactionpage/button_confirm_finish'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.verifyElementPresent(findTestObject('transactionpage/text_confirm_success'), 0)
+WebUI.verifyElementPresent(findTestObject('transactionpage/alert_enter_cardholder_name'), 0)
 
 WebUI.closeBrowser()
 

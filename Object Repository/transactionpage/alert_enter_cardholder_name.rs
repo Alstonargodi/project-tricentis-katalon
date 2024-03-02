@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>alert_enter_cardholder_name</name>
+   <tag></tag>
+   <elementGuidId>48683231-5111-4c46-9853-c8fb1f1d6fb3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.validation-summary-errors > ul > li</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='checkout-payment-info-load']/div/div/div[2]/div/ul/li</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>e9537381-af44-47c1-b872-ff7aa1822038</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Enter cardholder name</value>
+      <webElementGuid>17ffd905-d7c5-4c34-83d6-5f8e92639ad0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;checkout-payment-info-load&quot;)/div[@class=&quot;checkout-data&quot;]/div[@class=&quot;section payment-info&quot;]/div[@class=&quot;message-error&quot;]/div[@class=&quot;validation-summary-errors&quot;]/ul[1]/li[1]</value>
+      <webElementGuid>96a44bda-508c-48ef-ad02-6d7014300aab</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='checkout-payment-info-load']/div/div/div[2]/div/ul/li</value>
+      <webElementGuid>408b9f6d-d0e6-4245-96aa-b90d16a1cd07</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Card code'])[1]/following::li[1]</value>
+      <webElementGuid>bda77fd8-04d2-4e7f-9dce-6a64fb23f0bb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Wrong card number'])[1]/preceding::li[1]</value>
+      <webElementGuid>0f172440-5ad8-4a46-93f6-4e03df47d6f3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='«'])[2]/preceding::li[2]</value>
+      <webElementGuid>2c11bfa4-0eb0-4fab-b0d2-3a6ccd352992</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Enter cardholder name']/parent::*</value>
+      <webElementGuid>63388a1c-02df-45b6-8594-35cfb097c55b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div/div/div/div[2]/div/ul/li</value>
+      <webElementGuid>34b39ba6-fe0a-4963-b702-3bf82ed12caf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = 'Enter cardholder name' or . = 'Enter cardholder name')]</value>
+      <webElementGuid>f685e986-961e-4a27-838b-e05692ed5393</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
