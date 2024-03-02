@@ -33,15 +33,15 @@ WebUI.click(findTestObject('transactionpage/button_checkout'))
 
 WebUI.click(findTestObject('Object Repository/transactionpage/button_address'))
 
-WebUI.click(findTestObject('Object Repository/transactionpage/radiobtn_payment_cod'))
+WebUI.click(findTestObject('transactionpage/radiobtn_payment_credit'))
 
 WebUI.click(findTestObject('Object Repository/transactionpage/button_next_step'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/transactionpage/text_payment_info'), 0)
-
 WebUI.verifyElementPresent(findTestObject('transactionpage/div_payment_info'), 0)
 
-WebUI.verifyElementPresent(findTestObject('transactionpage/div_payment_method'), 0)
+WebUI.verifyElementPresent(findTestObject('transactionpage/textfield_purchase_number'), 0)
+
+WebUI.setText(findTestObject('transactionpage/textfield_purchase_number'), '1414151')
 
 WebUI.click(findTestObject('transactionpage/button_next_confirm'))
 

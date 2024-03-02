@@ -33,7 +33,7 @@ WebUI.click(findTestObject('transactionpage/button_checkout'))
 
 WebUI.click(findTestObject('Object Repository/transactionpage/button_address'))
 
-WebUI.click(findTestObject('Object Repository/transactionpage/radiobtn_payment_cod'))
+WebUI.click(findTestObject('transactionpage/radiobtn_payment_credit'))
 
 WebUI.click(findTestObject('Object Repository/transactionpage/button_next_step'))
 
