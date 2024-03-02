@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_checkout</name>
+   <name>form_billing_address</name>
    <tag></tag>
-   <elementGuidId>cc9b6af8-ef2c-44ec-8cbd-bc14503fbf68</elementGuidId>
+   <elementGuidId>6faa271b-8b01-4edf-bf7f-9800696b2551</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Gift Cards'])[2]/following::div[6]</value>
+         <value>//div[@id='billing-new-address-form']/div</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>div.page.checkout-page</value>
+         <value>div.enter-address</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,15 +22,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>f47386e2-a38f-4cf0-b4ad-52fa17f6626a</webElementGuid>
+      <webElementGuid>8e6c9198-2076-461f-94f9-3b0ba5241935</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>page checkout-page</value>
-      <webElementGuid>a19290cb-011b-4167-ba90-03c89d1b396b</webElementGuid>
+      <value>enter-address</value>
+      <webElementGuid>e743aa59-f119-427c-ac4d-35cac204caca</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,33 +38,6 @@
       <name>text</name>
       <type>Main</type>
       <value>
-    
-        Checkout
-    
-    
-        
-            
-                
-                    1
-                    Billing address
-                
-                
-                    
-                    
-                        
-    
-        
-            Select a billing address from your address book or enter a new address.
-            
-                
-                        wayan wayan, sydney city, sydney 21415, Australia
-                    New Address
-                
-            
-        
-    
-    
-        
             
 
     
@@ -406,136 +379,48 @@ Zimbabwe
 
 
             
-        
-    
-    
-
-
-                        
-                    
-                    
-                    
-                        Billing.init('#co-billing-form', 'https://demowebshop.tricentis.com/checkout/OpcSaveBilling/', false);
-                        if ($(&quot;#billing-address-select&quot;).length > 0) {
-                            Billing.newAddress(!$('#billing-address-select').val());
-                        }
-                    
-                    
-                        
-                        Loading next step...
-                    
-                
-            
-            
-                
-                    2
-                    Payment method
-                
-                
-                    
-                    
-                         Payment is not required
-                    
-                    
-                    
-                        PaymentMethod.init('#co-payment-method-form', 'https://demowebshop.tricentis.com/checkout/OpcSavePaymentMethod/');
-                    
-                    
-                        
-                            « Back
-                        
-                        Loading next step...
-                    
-                
-            
-            
-                
-                    3
-                    Payment information
-                
-                
-                    
-                    
-                         Payment is not required
-                    
-                    
-                    
-                        PaymentInfo.init('#co-payment-info-form', 'https://demowebshop.tricentis.com/checkout/OpcSavePaymentInfo/');
-                    
-                    
-                        
-                            « Back
-                        
-                        Loading next step...
-                    
-                
-            
-            
-                
-                    4
-                    Confirm order
-                
-                
-                    
-                        
-                    
-                    
-                        ConfirmOrder.init('https://demowebshop.tricentis.com/checkout/OpcConfirmOrder/', 'https://demowebshop.tricentis.com/checkout/completed/');
-                    
-                    
-                        
-                            « Back
-                        
-                        Submitting order information...
-                    
-                
-            
-        
-    
-    
-        Accordion.init('checkout-steps', '.step-title', true);
-        Accordion.openSection('#opc-billing');
-        Checkout.init('https://demowebshop.tricentis.com/cart/');
-        if (Billing.disableBillingAddressCheckoutStep)
-        {
-            Accordion.hideSection('#opc-billing');
-            Billing.save();
-        }
-    
-</value>
-      <webElementGuid>5db5d1ae-5b60-45ce-b446-609755e8cef2</webElementGuid>
+        </value>
+      <webElementGuid>76625954-42ea-4563-807d-a8887fcd449d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/div[@class=&quot;master-wrapper-page&quot;]/div[@class=&quot;master-wrapper-content&quot;]/div[@class=&quot;master-wrapper-main&quot;]/div[@class=&quot;center-1&quot;]/div[@class=&quot;page checkout-page&quot;]</value>
-      <webElementGuid>9242106d-a695-45c1-a1c6-6e43e3ce1358</webElementGuid>
+      <value>id(&quot;billing-new-address-form&quot;)/div[@class=&quot;enter-address&quot;]</value>
+      <webElementGuid>8799b4c8-17b0-4303-8765-463690fa7c3e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
+      <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Gift Cards'])[2]/following::div[6]</value>
-      <webElementGuid>2c89fb04-661b-463c-934b-f46e90a2cd03</webElementGuid>
+      <value>//div[@id='billing-new-address-form']/div</value>
+      <webElementGuid>1b5b864f-d221-4267-91b7-266d776d9d05</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jewelry'])[2]/following::div[7]</value>
-      <webElementGuid>3be6766c-65cd-4b08-87d6-63c6e859a69e</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Billing address'])[1]/following::div[5]</value>
+      <webElementGuid>78fc96d2-a363-456f-bd96-ca80b89cf27e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Checkout'])[1]/following::div[7]</value>
+      <webElementGuid>2ee2c904-6368-4212-bae1-b54cfd311a5b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div/div[4]/div/div</value>
-      <webElementGuid>e7907661-6efa-42b7-b457-b37a968aa7aa</webElementGuid>
+      <value>//form/div/div/div/div</value>
+      <webElementGuid>10d756d8-0dd9-4f54-85c8-475fcaa8d1fa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -543,33 +428,6 @@ Zimbabwe
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = concat(&quot;
-    
-        Checkout
-    
-    
-        
-            
-                
-                    1
-                    Billing address
-                
-                
-                    
-                    
-                        
-    
-        
-            Select a billing address from your address book or enter a new address.
-            
-                
-                        wayan wayan, sydney city, sydney 21415, Australia
-                    New Address
-                
-            
-        
-    
-    
-        
             
 
     
@@ -911,130 +769,7 @@ Zimbabwe
 
 
             
-        
-    
-    
-
-
-                        
-                    
-                    
-                    
-                        Billing.init(&quot; , &quot;'&quot; , &quot;#co-billing-form&quot; , &quot;'&quot; , &quot;, &quot; , &quot;'&quot; , &quot;https://demowebshop.tricentis.com/checkout/OpcSaveBilling/&quot; , &quot;'&quot; , &quot;, false);
-                        if ($(&quot;#billing-address-select&quot;).length > 0) {
-                            Billing.newAddress(!$(&quot; , &quot;'&quot; , &quot;#billing-address-select&quot; , &quot;'&quot; , &quot;).val());
-                        }
-                    
-                    
-                        
-                        Loading next step...
-                    
-                
-            
-            
-                
-                    2
-                    Payment method
-                
-                
-                    
-                    
-                         Payment is not required
-                    
-                    
-                    
-                        PaymentMethod.init(&quot; , &quot;'&quot; , &quot;#co-payment-method-form&quot; , &quot;'&quot; , &quot;, &quot; , &quot;'&quot; , &quot;https://demowebshop.tricentis.com/checkout/OpcSavePaymentMethod/&quot; , &quot;'&quot; , &quot;);
-                    
-                    
-                        
-                            « Back
-                        
-                        Loading next step...
-                    
-                
-            
-            
-                
-                    3
-                    Payment information
-                
-                
-                    
-                    
-                         Payment is not required
-                    
-                    
-                    
-                        PaymentInfo.init(&quot; , &quot;'&quot; , &quot;#co-payment-info-form&quot; , &quot;'&quot; , &quot;, &quot; , &quot;'&quot; , &quot;https://demowebshop.tricentis.com/checkout/OpcSavePaymentInfo/&quot; , &quot;'&quot; , &quot;);
-                    
-                    
-                        
-                            « Back
-                        
-                        Loading next step...
-                    
-                
-            
-            
-                
-                    4
-                    Confirm order
-                
-                
-                    
-                        
-                    
-                    
-                        ConfirmOrder.init(&quot; , &quot;'&quot; , &quot;https://demowebshop.tricentis.com/checkout/OpcConfirmOrder/&quot; , &quot;'&quot; , &quot;, &quot; , &quot;'&quot; , &quot;https://demowebshop.tricentis.com/checkout/completed/&quot; , &quot;'&quot; , &quot;);
-                    
-                    
-                        
-                            « Back
-                        
-                        Submitting order information...
-                    
-                
-            
-        
-    
-    
-        Accordion.init(&quot; , &quot;'&quot; , &quot;checkout-steps&quot; , &quot;'&quot; , &quot;, &quot; , &quot;'&quot; , &quot;.step-title&quot; , &quot;'&quot; , &quot;, true);
-        Accordion.openSection(&quot; , &quot;'&quot; , &quot;#opc-billing&quot; , &quot;'&quot; , &quot;);
-        Checkout.init(&quot; , &quot;'&quot; , &quot;https://demowebshop.tricentis.com/cart/&quot; , &quot;'&quot; , &quot;);
-        if (Billing.disableBillingAddressCheckoutStep)
-        {
-            Accordion.hideSection(&quot; , &quot;'&quot; , &quot;#opc-billing&quot; , &quot;'&quot; , &quot;);
-            Billing.save();
-        }
-    
-&quot;) or . = concat(&quot;
-    
-        Checkout
-    
-    
-        
-            
-                
-                    1
-                    Billing address
-                
-                
-                    
-                    
-                        
-    
-        
-            Select a billing address from your address book or enter a new address.
-            
-                
-                        wayan wayan, sydney city, sydney 21415, Australia
-                    New Address
-                
-            
-        
-    
-    
-        
+        &quot;) or . = concat(&quot;
             
 
     
@@ -1376,103 +1111,7 @@ Zimbabwe
 
 
             
-        
-    
-    
-
-
-                        
-                    
-                    
-                    
-                        Billing.init(&quot; , &quot;'&quot; , &quot;#co-billing-form&quot; , &quot;'&quot; , &quot;, &quot; , &quot;'&quot; , &quot;https://demowebshop.tricentis.com/checkout/OpcSaveBilling/&quot; , &quot;'&quot; , &quot;, false);
-                        if ($(&quot;#billing-address-select&quot;).length > 0) {
-                            Billing.newAddress(!$(&quot; , &quot;'&quot; , &quot;#billing-address-select&quot; , &quot;'&quot; , &quot;).val());
-                        }
-                    
-                    
-                        
-                        Loading next step...
-                    
-                
-            
-            
-                
-                    2
-                    Payment method
-                
-                
-                    
-                    
-                         Payment is not required
-                    
-                    
-                    
-                        PaymentMethod.init(&quot; , &quot;'&quot; , &quot;#co-payment-method-form&quot; , &quot;'&quot; , &quot;, &quot; , &quot;'&quot; , &quot;https://demowebshop.tricentis.com/checkout/OpcSavePaymentMethod/&quot; , &quot;'&quot; , &quot;);
-                    
-                    
-                        
-                            « Back
-                        
-                        Loading next step...
-                    
-                
-            
-            
-                
-                    3
-                    Payment information
-                
-                
-                    
-                    
-                         Payment is not required
-                    
-                    
-                    
-                        PaymentInfo.init(&quot; , &quot;'&quot; , &quot;#co-payment-info-form&quot; , &quot;'&quot; , &quot;, &quot; , &quot;'&quot; , &quot;https://demowebshop.tricentis.com/checkout/OpcSavePaymentInfo/&quot; , &quot;'&quot; , &quot;);
-                    
-                    
-                        
-                            « Back
-                        
-                        Loading next step...
-                    
-                
-            
-            
-                
-                    4
-                    Confirm order
-                
-                
-                    
-                        
-                    
-                    
-                        ConfirmOrder.init(&quot; , &quot;'&quot; , &quot;https://demowebshop.tricentis.com/checkout/OpcConfirmOrder/&quot; , &quot;'&quot; , &quot;, &quot; , &quot;'&quot; , &quot;https://demowebshop.tricentis.com/checkout/completed/&quot; , &quot;'&quot; , &quot;);
-                    
-                    
-                        
-                            « Back
-                        
-                        Submitting order information...
-                    
-                
-            
-        
-    
-    
-        Accordion.init(&quot; , &quot;'&quot; , &quot;checkout-steps&quot; , &quot;'&quot; , &quot;, &quot; , &quot;'&quot; , &quot;.step-title&quot; , &quot;'&quot; , &quot;, true);
-        Accordion.openSection(&quot; , &quot;'&quot; , &quot;#opc-billing&quot; , &quot;'&quot; , &quot;);
-        Checkout.init(&quot; , &quot;'&quot; , &quot;https://demowebshop.tricentis.com/cart/&quot; , &quot;'&quot; , &quot;);
-        if (Billing.disableBillingAddressCheckoutStep)
-        {
-            Accordion.hideSection(&quot; , &quot;'&quot; , &quot;#opc-billing&quot; , &quot;'&quot; , &quot;);
-            Billing.save();
-        }
-    
-&quot;))]</value>
-      <webElementGuid>cf3c9c25-8269-4c8c-acc3-b9a8f0677136</webElementGuid>
+        &quot;))]</value>
+      <webElementGuid>2f13acfa-db03-4465-80b5-e4ca56506deb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

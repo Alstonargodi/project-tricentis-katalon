@@ -6,12 +6,12 @@
    <elementGuidId>1f455e40-28c0-49c6-9ed9-043ab8c69b66</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#bar-notification</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='bar-notification']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#bar-notification</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

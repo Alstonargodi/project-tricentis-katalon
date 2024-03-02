@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>alert_recipient_email</name>
+   <name>div_confirm_order</name>
    <tag></tag>
-   <elementGuidId>7d3c89ca-b782-4fcc-9023-ab70f44d449f</elementGuidId>
+   <elementGuidId>b8c1cb3c-3ebf-4828-b3ed-6507e09f968f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='bar-notification']</value>
+         <value>//li[@id='opc-confirm_order']/div</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#bar-notification</value>
+         <value>#opc-confirm_order > div.step-title</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,23 +22,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>1e41585c-70de-4aba-91d7-cb8baa30a328</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>bar-notification</value>
-      <webElementGuid>df745f09-2495-40d4-bbee-4cc383df0e8a</webElementGuid>
+      <webElementGuid>9a3e2cf5-0a78-4597-96e8-abe76421d19c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>bar-notification error</value>
-      <webElementGuid>c8096db0-18b0-4434-b3da-a594134c61e5</webElementGuid>
+      <value>step-title</value>
+      <webElementGuid>57d32c88-aadf-44bc-ae1f-20598d75bf94</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,60 +38,71 @@
       <name>text</name>
       <type>Main</type>
       <value>
-     
-Enter valid recipient email</value>
-      <webElementGuid>b9a52fad-e099-4a85-a65d-a2fb78ec1745</webElementGuid>
+                    4
+                    Confirm order
+                </value>
+      <webElementGuid>d8d712e3-0829-4c91-9479-6a474bf67da8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;bar-notification&quot;)</value>
-      <webElementGuid>a4c13501-9264-4314-b4fb-96155a345249</webElementGuid>
+      <value>id(&quot;opc-confirm_order&quot;)/div[@class=&quot;step-title&quot;]</value>
+      <webElementGuid>22a8bd2a-9fe5-46b6-ba3c-8035668e835c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
+      <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='bar-notification']</value>
-      <webElementGuid>bd737b16-0239-438e-b885-bd7788911153</webElementGuid>
+      <value>//li[@id='opc-confirm_order']/div</value>
+      <webElementGuid>9091c8bf-8b02-4c1a-ac51-c2a59fd62dca</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='wayanpnm@gmail.com'])[1]/preceding::div[2]</value>
-      <webElementGuid>798273c2-6ee0-4e3c-a969-be0bcf8809e1</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Loading next step...'])[3]/following::div[1]</value>
+      <webElementGuid>a9526633-071a-460b-9bed-cec2f44e548d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Log out'])[1]/preceding::div[2]</value>
-      <webElementGuid>b3d80635-b2d2-4ef6-8bba-165bed8cbd0e</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='«'])[2]/following::div[1]</value>
+      <webElementGuid>d4732a95-5c22-4f57-b20c-4d1c4d2ceac5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Billing Address'])[1]/preceding::div[3]</value>
+      <webElementGuid>2b80a76c-5926-4a1a-bf8a-fe1a9dd225ed</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]</value>
-      <webElementGuid>645f372b-3684-43a0-8b92-de7da927ceeb</webElementGuid>
+      <value>//ol/li[4]/div</value>
+      <webElementGuid>5e88ef1f-9e68-4172-9fee-840f1ed8e716</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[@id = 'bar-notification' and (text() = '
-     
-Enter valid recipient email' or . = '
-     
-Enter valid recipient email')]</value>
-      <webElementGuid>8cd5f17c-d05f-42bc-b85a-fae8dd97e6b1</webElementGuid>
+      <value>//div[(text() = '
+                    4
+                    Confirm order
+                ' or . = '
+                    4
+                    Confirm order
+                ')]</value>
+      <webElementGuid>1c69a387-44e4-436b-960a-52f1d38bf764</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

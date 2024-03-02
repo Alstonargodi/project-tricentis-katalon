@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>alert_recipient_email</name>
+   <name>menu_shopping_cart</name>
    <tag></tag>
-   <elementGuidId>7d3c89ca-b782-4fcc-9023-ab70f44d449f</elementGuidId>
+   <elementGuidId>8ad819a5-c04f-4ead-a5fd-f87dc999aca3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='bar-notification']</value>
+         <key>CSS</key>
+         <value>a.ico-cart</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#bar-notification</value>
+         <key>XPATH</key>
+         <value>//li[@id='topcartlink']/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,24 +21,24 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
-      <webElementGuid>1e41585c-70de-4aba-91d7-cb8baa30a328</webElementGuid>
+      <value>a</value>
+      <webElementGuid>2e2bb3aa-cc62-4308-b223-6bf9986f6b9e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>href</name>
       <type>Main</type>
-      <value>bar-notification</value>
-      <webElementGuid>df745f09-2495-40d4-bbee-4cc383df0e8a</webElementGuid>
+      <value>/cart</value>
+      <webElementGuid>4f91df4e-5701-410f-8c84-0faf9e668dd5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>bar-notification error</value>
-      <webElementGuid>c8096db0-18b0-4434-b3da-a594134c61e5</webElementGuid>
+      <value>ico-cart</value>
+      <webElementGuid>232ed3ef-0a87-4bbf-8519-b283990fefde</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,60 +46,71 @@
       <name>text</name>
       <type>Main</type>
       <value>
-     
-Enter valid recipient email</value>
-      <webElementGuid>b9a52fad-e099-4a85-a65d-a2fb78ec1745</webElementGuid>
+                    Shopping cart
+                    (0)
+                </value>
+      <webElementGuid>f660dc5c-58b5-48d8-a0ce-cd809074abb1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;bar-notification&quot;)</value>
-      <webElementGuid>a4c13501-9264-4314-b4fb-96155a345249</webElementGuid>
+      <value>id(&quot;topcartlink&quot;)/a[@class=&quot;ico-cart&quot;]</value>
+      <webElementGuid>fdc9db42-b22c-4b9d-b5c1-4576f63e8d7c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
+      <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='bar-notification']</value>
-      <webElementGuid>bd737b16-0239-438e-b885-bd7788911153</webElementGuid>
+      <value>//li[@id='topcartlink']/a</value>
+      <webElementGuid>8fe114e3-a700-43d1-a424-4764623e3dee</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='wayanpnm@gmail.com'])[1]/preceding::div[2]</value>
-      <webElementGuid>798273c2-6ee0-4e3c-a969-be0bcf8809e1</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Log in'])[1]/following::a[1]</value>
+      <webElementGuid>13fefca8-ed5f-4b97-af32-53a361921d85</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Log out'])[1]/preceding::div[2]</value>
-      <webElementGuid>b3d80635-b2d2-4ef6-8bba-165bed8cbd0e</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Register'])[1]/following::a[2]</value>
+      <webElementGuid>b379623c-c330-4aac-90f6-79e540b83da9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/cart')]</value>
+      <webElementGuid>02bb5ae0-82d9-4cb8-9acf-130f8d101e49</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]</value>
-      <webElementGuid>645f372b-3684-43a0-8b92-de7da927ceeb</webElementGuid>
+      <value>//li[3]/a</value>
+      <webElementGuid>5c0d0412-568a-4aee-8790-6edcfaad2b10</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[@id = 'bar-notification' and (text() = '
-     
-Enter valid recipient email' or . = '
-     
-Enter valid recipient email')]</value>
-      <webElementGuid>8cd5f17c-d05f-42bc-b85a-fae8dd97e6b1</webElementGuid>
+      <value>//a[@href = '/cart' and (text() = '
+                    Shopping cart
+                    (0)
+                ' or . = '
+                    Shopping cart
+                    (0)
+                ')]</value>
+      <webElementGuid>67ad1206-3446-44b3-9d69-615d68ad5006</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

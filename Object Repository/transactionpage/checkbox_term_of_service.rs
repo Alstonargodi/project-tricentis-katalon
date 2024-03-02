@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Forgot password_button-1 login-button</name>
+   <name>checkbox_term_of_service</name>
    <tag></tag>
-   <elementGuidId>0ea212d6-b15e-4026-9b6c-675e31c1a0e8</elementGuidId>
+   <elementGuidId>fae7f9ea-66d2-4871-b0c3-179c91110888</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>input.button-1.login-button</value>
+         <value>#termsofservice</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@value='Log in']</value>
+         <value>//input[@id='termsofservice']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,62 +22,62 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>301c9919-82dc-4159-bb24-5ce1afd1f6d6</webElementGuid>
+      <webElementGuid>fac2b58d-83a6-4ca1-8feb-908628a03fba</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>id</name>
       <type>Main</type>
-      <value>button-1 login-button</value>
-      <webElementGuid>82a8c562-e1fc-412d-8ccc-d89afecfe06d</webElementGuid>
+      <value>termsofservice</value>
+      <webElementGuid>c33e9182-a57c-48c3-b306-537bfd4a22e0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>submit</value>
-      <webElementGuid>f97004fe-5c3f-492e-b027-8a200fab4d45</webElementGuid>
+      <value>checkbox</value>
+      <webElementGuid>e74b5c9d-ef0a-4ccd-a756-fede56d07b74</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>value</name>
+      <name>name</name>
       <type>Main</type>
-      <value>Log in</value>
-      <webElementGuid>7395d549-7d1a-4613-963c-e4ed5f21aaad</webElementGuid>
+      <value>termsofservice</value>
+      <webElementGuid>5c01af1f-f90e-4d04-9415-91ca8b3ab2f3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/div[@class=&quot;master-wrapper-page&quot;]/div[@class=&quot;master-wrapper-content&quot;]/div[@class=&quot;master-wrapper-main&quot;]/div[@class=&quot;center-2&quot;]/div[@class=&quot;page login-page&quot;]/div[@class=&quot;page-body&quot;]/div[@class=&quot;customer-blocks&quot;]/div[@class=&quot;returning-wrapper&quot;]/div[@class=&quot;form-fields&quot;]/form[1]/div[@class=&quot;buttons&quot;]/input[@class=&quot;button-1 login-button&quot;]</value>
-      <webElementGuid>992d4d53-02ef-4d56-9798-dd6a30ca87f8</webElementGuid>
+      <value>id(&quot;termsofservice&quot;)</value>
+      <webElementGuid>e53813e6-856d-416c-8991-2cc9ef53896a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@value='Log in']</value>
-      <webElementGuid>5ad5fba7-2fef-44cc-8955-71a5aa244f28</webElementGuid>
+      <value>//input[@id='termsofservice']</value>
+      <webElementGuid>5b41e168-6eb7-45e9-a29b-40157e95cdeb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[5]/input</value>
-      <webElementGuid>9033b4eb-4b1c-429e-931b-de74fae61840</webElementGuid>
+      <value>//div[2]/div[3]/input</value>
+      <webElementGuid>94ea4003-c1ad-46ea-a95e-facad25358cf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'submit']</value>
-      <webElementGuid>37544c7a-5eff-48da-93ff-2b9549ae125b</webElementGuid>
+      <value>//input[@id = 'termsofservice' and @type = 'checkbox' and @name = 'termsofservice']</value>
+      <webElementGuid>7b937583-494f-4243-9827-ceba86e90bf0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_I agree with the terms of service and_f529a0</name>
+   <name>textfield_email</name>
    <tag></tag>
-   <elementGuidId>fae7f9ea-66d2-4871-b0c3-179c91110888</elementGuidId>
+   <elementGuidId>e6815526-3122-40b9-b08f-76aac67d73e7</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#termsofservice</value>
+         <value>#Email</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='termsofservice']</value>
+         <value>//input[@id='Email']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,62 +22,78 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>fac2b58d-83a6-4ca1-8feb-908628a03fba</webElementGuid>
+      <webElementGuid>dd7420dd-6ff3-4a58-ba3d-fae51db7d483</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>autofocus</name>
+      <type>Main</type>
+      <value>autofocus</value>
+      <webElementGuid>2a59fa41-6739-4b5e-8053-e95b477c9125</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>email</value>
+      <webElementGuid>edea23ce-9b93-4853-aaf8-a96a685c602d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>termsofservice</value>
-      <webElementGuid>c33e9182-a57c-48c3-b306-537bfd4a22e0</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>checkbox</value>
-      <webElementGuid>e74b5c9d-ef0a-4ccd-a756-fede56d07b74</webElementGuid>
+      <value>Email</value>
+      <webElementGuid>54875829-4ab4-4295-9e50-d4e186991d4d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>termsofservice</value>
-      <webElementGuid>5c01af1f-f90e-4d04-9415-91ca8b3ab2f3</webElementGuid>
+      <value>Email</value>
+      <webElementGuid>d6c78ef2-3dfc-45dc-8fd0-5409ad1f8d17</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>08261285-737c-4c35-adff-47e223524d98</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;termsofservice&quot;)</value>
-      <webElementGuid>e53813e6-856d-416c-8991-2cc9ef53896a</webElementGuid>
+      <value>id(&quot;Email&quot;)</value>
+      <webElementGuid>357abe83-7b98-4e74-ac9e-71c77aabdf60</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='termsofservice']</value>
-      <webElementGuid>5b41e168-6eb7-45e9-a29b-40157e95cdeb</webElementGuid>
+      <value>//input[@id='Email']</value>
+      <webElementGuid>163c4be5-c1f9-4c51-9424-bc9fbd84fd4c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div[3]/input</value>
-      <webElementGuid>94ea4003-c1ad-46ea-a95e-facad25358cf</webElementGuid>
+      <value>//form/div[2]/input</value>
+      <webElementGuid>acd7e173-8988-418b-87c0-dd70ac076336</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@id = 'termsofservice' and @type = 'checkbox' and @name = 'termsofservice']</value>
-      <webElementGuid>7b937583-494f-4243-9827-ceba86e90bf0</webElementGuid>
+      <value>//input[@id = 'Email' and @name = 'Email' and @type = 'text']</value>
+      <webElementGuid>bc78244f-e3a4-45ff-9b5d-1b4fe35ce292</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

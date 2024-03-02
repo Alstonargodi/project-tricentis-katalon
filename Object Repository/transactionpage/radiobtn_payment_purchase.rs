@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Password_RememberMe</name>
+   <name>radiobtn_payment_purchase</name>
    <tag></tag>
-   <elementGuidId>9554b99e-10cb-4702-a18b-bfc8271f4607</elementGuidId>
+   <elementGuidId>e0396998-c796-4b4f-a3e2-8048e1ef3c40</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#RememberMe</value>
+         <key>XPATH</key>
+         <value>//input[@id='paymentmethod_2']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='RememberMe']</value>
+         <key>CSS</key>
+         <value>#paymentmethod_2</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,70 +22,78 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>aabfe681-1bbe-497d-8f03-a0b5e9e71dc2</webElementGuid>
+      <webElementGuid>bd199eef-d4ef-4927-850a-36a3e175c2d0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>RememberMe</value>
-      <webElementGuid>4d8a19dd-13fe-4b92-be3e-8276d31801ac</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>RememberMe</value>
-      <webElementGuid>bcaa2983-83e8-4bc0-8179-8ff0bd38c336</webElementGuid>
+      <value>paymentmethod_2</value>
+      <webElementGuid>99db62bb-6cba-4023-b2a1-dd5643eee8d6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>checkbox</value>
-      <webElementGuid>dd40e99c-9fac-45ac-9d66-8dda9beac59c</webElementGuid>
+      <value>radio</value>
+      <webElementGuid>c716a4f0-f6cf-40d6-9abf-9a1e5b3127d7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>paymentmethod</value>
+      <webElementGuid>db1322af-a962-4c38-9e39-1c1a3073d136</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>true</value>
-      <webElementGuid>9650b6b4-115a-4455-83ff-df48cd2c1264</webElementGuid>
+      <value>Payments.Manual</value>
+      <webElementGuid>52f4c0dd-f128-408f-9fbc-83a81db48822</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;RememberMe&quot;)</value>
-      <webElementGuid>a3f27c68-d444-48a7-9b7c-08c6d5217b8e</webElementGuid>
+      <value>id(&quot;paymentmethod_2&quot;)</value>
+      <webElementGuid>1abe23ef-2ff1-43cf-8da3-46da6d0ac736</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='RememberMe']</value>
-      <webElementGuid>47377219-3037-4d6f-919e-52c60accdbcf</webElementGuid>
+      <value>//input[@id='paymentmethod_2']</value>
+      <webElementGuid>2a80fa52-818f-40f7-9bac-58bf09e248a0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='checkout-payment-method-load']/div/div/ul/li[3]/div/div[2]/input</value>
+      <webElementGuid>149b9b74-eb82-4619-a4d4-959650b5e145</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[4]/input</value>
-      <webElementGuid>f0df7d57-e47a-4bb6-a72a-9a077249a106</webElementGuid>
+      <value>//li[3]/div/div[2]/input</value>
+      <webElementGuid>93a0ae6a-5967-4774-96ba-7c039dca6949</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@id = 'RememberMe' and @name = 'RememberMe' and @type = 'checkbox']</value>
-      <webElementGuid>d60c4b71-d812-40c3-a628-073ab8bc1cbf</webElementGuid>
+      <value>//input[@id = 'paymentmethod_2' and @type = 'radio' and @name = 'paymentmethod']</value>
+      <webElementGuid>8214e2a4-9d3e-45fe-a0d3-a0eb2ca43938</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

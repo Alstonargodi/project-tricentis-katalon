@@ -6,12 +6,12 @@
    <elementGuidId>23856119-1627-4498-882c-7ba86ef878c7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#giftcard_2_RecipientName</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@id='giftcard_2_RecipientName']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#giftcard_2_RecipientName</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

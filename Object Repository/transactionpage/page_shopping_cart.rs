@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_shopping_cart</name>
+   <name>page_shopping_cart</name>
    <tag></tag>
-   <elementGuidId>83f2c48a-f9fb-487a-b4d1-b798588d81be</elementGuidId>
+   <elementGuidId>01331348-eb8f-4cfb-bee6-4dbd3fd28f03</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>ad1fe77b-6a5d-4ab7-8b24-59dbde83c55e</webElementGuid>
+      <webElementGuid>4707a1fd-a159-4959-8e38-ee4c17253a8b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>page shopping-cart-page</value>
-      <webElementGuid>d1afd8e2-1679-49b5-bf86-2ee660a5458d</webElementGuid>
+      <webElementGuid>48b9cb82-754c-4171-a473-3a7afb32017b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -87,37 +87,7 @@
                         
                             $25 Virtual Gift Card
                                 
-                                    From: tono &lt;user_pnm@mail.com>For: wayan &lt;wayan_pnm@mail.com>
-                                
-                                                                                        
-                                    Edit
-                                
-                                                    
-                        
-                            Price:
-                            25.00
-                        
-                        
-                            Qty.:
-                                    
-                        
-                        
-                            Total:
-                            25.00
-                        
-                    
-                    
-                            
-                                Remove:
-                                
-                            
-                                                                            
-                                
-                            
-                        
-                            $25 Virtual Gift Card
-                                
-                                    From: wayan wayan &lt;wayan_pnm@mail.com>For: budi &lt;bud@mail.com>
+                                    From: wayan &lt;wayanpnm@gmail.com>For: budi &lt;budi@mail.com>
                                 
                                                                                         
                                     Edit
@@ -184,7 +154,7 @@
                     Sub-Total:
                 
                 
-                    50.00 
+                    25.00 
                 
             
             
@@ -213,7 +183,7 @@
                 
                 
                     
-                            50.00
+                            25.00
                     
                 
             
@@ -263,7 +233,7 @@
 
     
 </value>
-      <webElementGuid>74a3659a-f352-4969-b56b-edfc26436718</webElementGuid>
+      <webElementGuid>4dd03620-8678-4a98-b891-6d60ff925613</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -271,7 +241,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[@class=&quot;master-wrapper-page&quot;]/div[@class=&quot;master-wrapper-content&quot;]/div[@class=&quot;master-wrapper-main&quot;]/div[@class=&quot;center-1&quot;]/div[@class=&quot;page shopping-cart-page&quot;]</value>
-      <webElementGuid>67973a41-df83-4a74-bf0c-b977c5af27ea</webElementGuid>
+      <webElementGuid>9f022578-b3ac-4dbc-9c77-9d8483b9e125</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -279,7 +249,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Gift Cards'])[2]/following::div[6]</value>
-      <webElementGuid>0c8cc60b-c317-4f46-a2c9-ad00b9a7a020</webElementGuid>
+      <webElementGuid>d654e1d5-d585-4e54-aa1b-6fc0bda9e3d5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -287,7 +257,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Jewelry'])[2]/following::div[7]</value>
-      <webElementGuid>6fd91f47-ad51-4750-8f3d-533cab5a0214</webElementGuid>
+      <webElementGuid>b170c702-9d3b-46b3-8673-2f41aae4d597</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -295,7 +265,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div[4]/div/div</value>
-      <webElementGuid>b905b6e5-d036-4cc1-ab32-83e651f327a4</webElementGuid>
+      <webElementGuid>6e337267-a787-4a68-ac99-b81941b2dfaa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -352,37 +322,7 @@
                         
                             $25 Virtual Gift Card
                                 
-                                    From: tono &lt;user_pnm@mail.com>For: wayan &lt;wayan_pnm@mail.com>
-                                
-                                                                                        
-                                    Edit
-                                
-                                                    
-                        
-                            Price:
-                            25.00
-                        
-                        
-                            Qty.:
-                                    
-                        
-                        
-                            Total:
-                            25.00
-                        
-                    
-                    
-                            
-                                Remove:
-                                
-                            
-                                                                            
-                                
-                            
-                        
-                            $25 Virtual Gift Card
-                                
-                                    From: wayan wayan &lt;wayan_pnm@mail.com>For: budi &lt;bud@mail.com>
+                                    From: wayan &lt;wayanpnm@gmail.com>For: budi &lt;budi@mail.com>
                                 
                                                                                         
                                     Edit
@@ -449,7 +389,7 @@
                     Sub-Total:
                 
                 
-                    50.00 
+                    25.00 
                 
             
             
@@ -478,7 +418,7 @@
                 
                 
                     
-                            50.00
+                            25.00
                     
                 
             
@@ -577,37 +517,7 @@
                         
                             $25 Virtual Gift Card
                                 
-                                    From: tono &lt;user_pnm@mail.com>For: wayan &lt;wayan_pnm@mail.com>
-                                
-                                                                                        
-                                    Edit
-                                
-                                                    
-                        
-                            Price:
-                            25.00
-                        
-                        
-                            Qty.:
-                                    
-                        
-                        
-                            Total:
-                            25.00
-                        
-                    
-                    
-                            
-                                Remove:
-                                
-                            
-                                                                            
-                                
-                            
-                        
-                            $25 Virtual Gift Card
-                                
-                                    From: wayan wayan &lt;wayan_pnm@mail.com>For: budi &lt;bud@mail.com>
+                                    From: wayan &lt;wayanpnm@gmail.com>For: budi &lt;budi@mail.com>
                                 
                                                                                         
                                     Edit
@@ -674,7 +584,7 @@
                     Sub-Total:
                 
                 
-                    50.00 
+                    25.00 
                 
             
             
@@ -703,7 +613,7 @@
                 
                 
                     
-                            50.00
+                            25.00
                     
                 
             
@@ -753,6 +663,6 @@
 
     
 &quot;))]</value>
-      <webElementGuid>7153cdc0-8f30-406b-a8f4-eed2c8db4077</webElementGuid>
+      <webElementGuid>5e4bef40-955a-4101-89a9-c32770baa770</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

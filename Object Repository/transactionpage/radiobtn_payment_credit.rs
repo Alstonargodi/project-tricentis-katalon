@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Password_Password</name>
+   <name>radiobtn_payment_credit</name>
    <tag></tag>
-   <elementGuidId>6285598a-841a-4e95-ad14-e0908e2fdcb6</elementGuidId>
+   <elementGuidId>9f230eff-bac6-4d54-a206-3e1ca49990b9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#Password</value>
+         <key>XPATH</key>
+         <value>//input[@id='paymentmethod_3']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='Password']</value>
+         <key>CSS</key>
+         <value>#paymentmethod_3</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,70 +22,78 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>b7382519-2b62-49fd-845a-d44405df0fcb</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>password</value>
-      <webElementGuid>d7b3448b-85a5-4fef-88f0-3ed90bb37b28</webElementGuid>
+      <webElementGuid>af1e308c-532e-4b38-a2bd-b51b1f0047b0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>Password</value>
-      <webElementGuid>5322af08-be26-47d7-9bee-c1c82679e351</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>Password</value>
-      <webElementGuid>60420cf8-8951-4d5c-aec8-2558c318d440</webElementGuid>
+      <value>paymentmethod_3</value>
+      <webElementGuid>0d8e836a-3632-4a49-838e-f8d9cda25ffa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>password</value>
-      <webElementGuid>8804d4b9-502b-469e-a0d1-f4ea3393bc20</webElementGuid>
+      <value>radio</value>
+      <webElementGuid>bab30fe2-970f-46e3-8505-916ce3af1bd1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>paymentmethod</value>
+      <webElementGuid>67686f9b-b3d5-49f0-9187-a29112b81534</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>Payments.PurchaseOrder</value>
+      <webElementGuid>97ba2b2c-6f32-4c1f-ba76-e1307ac0d47f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;Password&quot;)</value>
-      <webElementGuid>ea2e5533-6104-407b-aeb1-1acc0c678016</webElementGuid>
+      <value>id(&quot;paymentmethod_3&quot;)</value>
+      <webElementGuid>16c97d65-17cb-402c-a1bd-58a38bbfb020</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='Password']</value>
-      <webElementGuid>ecb07813-bde8-406e-8659-fbc997f540be</webElementGuid>
+      <value>//input[@id='paymentmethod_3']</value>
+      <webElementGuid>5b5e308a-68ea-4a21-b6a2-ec433f8cdcb6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='checkout-payment-method-load']/div/div/ul/li[4]/div/div[2]/input</value>
+      <webElementGuid>cdf96dcf-004e-4782-948d-27df79a7d5e0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//form/div[3]/input</value>
-      <webElementGuid>6f4ccdd9-5286-4150-902c-7917e193c3d8</webElementGuid>
+      <value>//ul/li[4]/div/div[2]/input</value>
+      <webElementGuid>eef988cd-05ec-40e9-8d57-627de25fabe8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@id = 'Password' and @name = 'Password' and @type = 'password']</value>
-      <webElementGuid>de467283-7e54-43fd-a91b-41db2520faaa</webElementGuid>
+      <value>//input[@id = 'paymentmethod_3' and @type = 'radio' and @name = 'paymentmethod']</value>
+      <webElementGuid>2f432d10-7c79-4365-924a-4e5d0908a0ba</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

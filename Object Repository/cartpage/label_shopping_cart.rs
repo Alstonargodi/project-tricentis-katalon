@@ -6,12 +6,12 @@
    <elementGuidId>f0be2253-eff9-4a4a-b4a1-1019990e3175</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>span.cart-label</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//li[@id='topcartlink']/a/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.cart-label</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

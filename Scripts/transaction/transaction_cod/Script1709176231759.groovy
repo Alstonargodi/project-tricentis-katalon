@@ -19,29 +19,29 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('login/login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/transactionpage/span_Shopping cart'))
+WebUI.verifyElementPresent(findTestObject('transactionpage/menu_shopping_cart'), 0)
 
-WebUI.click(findTestObject('Object Repository/transactionpage/input_I agree with the terms of service and_f529a0'))
+WebUI.click(findTestObject('transactionpage/menu_shopping_cart'))
 
-WebUI.click(findTestObject('Object Repository/transactionpage/button_Checkout'))
+WebUI.verifyElementPresent(findTestObject('transactionpage/checkbox_term_of_service'), 0)
 
-WebUI.click(findTestObject('Object Repository/transactionpage/input_Fax number_button-1 new-address-next-_2f210c'))
+WebUI.verifyElementPresent(findTestObject('transactionpage/button_checkout'), 0)
 
-WebUI.click(findTestObject('Object Repository/transactionpage/input_Payment method_paymentmethod'))
+WebUI.click(findTestObject('Object Repository/transactionpage/checkbox_term_of_service'))
 
-WebUI.click(findTestObject('Object Repository/transactionpage/input__button-1 payment-method-next-step-button'))
+WebUI.click(findTestObject('transactionpage/button_checkout'))
 
-WebUI.click(findTestObject('Object Repository/transactionpage/p_You will pay by COD'))
+WebUI.click(findTestObject('Object Repository/transactionpage/button_address'))
 
-WebUI.click(findTestObject('Object Repository/transactionpage/input__button-1 payment-method-next-step-button'))
+WebUI.click(findTestObject('Object Repository/transactionpage/radiobtn_payment_cod'))
 
-WebUI.click(findTestObject('Object Repository/transactionpage/div_subtotal'))
+WebUI.click(findTestObject('Object Repository/transactionpage/button_next_step'))
 
-WebUI.click(findTestObject('Object Repository/transactionpage/input__button-1 payment-method-next-step-button'))
+WebUI.verifyElementPresent(findTestObject('Object Repository/transactionpage/text_payment_info'), 0)
 
-WebUI.click(findTestObject('Object Repository/transactionpage/strong_Your order has been successfully processed'))
+WebUI.verifyElementPresent(findTestObject('transactionpage/div_payment_info'), 0)
 
-WebUI.click(findTestObject('Object Repository/transactionpage/input__button-1 payment-method-next-step-button'))
+WebUI.verifyElementPresent(findTestObject('transactionpage/div_payment_method'), 0)
 
-WebUI.closeBrowser()
+WebUI.click(findTestObject(null))
 

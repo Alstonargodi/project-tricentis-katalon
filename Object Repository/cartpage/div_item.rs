@@ -6,12 +6,12 @@
    <elementGuidId>4b546646-2b4f-49ab-8dc6-933a24bc4485</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.overview</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//form[@id='product-details-form']/div/div/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.overview</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

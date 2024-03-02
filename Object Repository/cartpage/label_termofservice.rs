@@ -6,12 +6,12 @@
    <elementGuidId>aa5fd401-729a-446b-8efe-bf5f693d1639</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>span.ui-button-icon-primary.ui-icon.ui-icon-closethick</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//button/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.ui-button-icon-primary.ui-icon.ui-icon-closethick</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

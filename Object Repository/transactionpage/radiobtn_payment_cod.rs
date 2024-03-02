@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Fax number_button-1 new-address-next-_2f210c</name>
+   <name>radiobtn_payment_cod</name>
    <tag></tag>
-   <elementGuidId>b49f7947-98df-4da9-8175-105ffa468793</elementGuidId>
+   <elementGuidId>2f7073fe-ab16-4025-9e7e-fb6f35d62045</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>input.button-1.new-address-next-step-button</value>
+         <key>XPATH</key>
+         <value>//input[@id='paymentmethod_0']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@value='Continue']</value>
+         <key>CSS</key>
+         <value>#paymentmethod_0</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,86 +22,86 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>5a27048f-0545-4bd1-a7c8-14042141deaf</webElementGuid>
+      <webElementGuid>563c87f4-b091-4568-bd4d-4510e8e5c516</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>paymentmethod_0</value>
+      <webElementGuid>e719502c-43d1-475e-9a78-2f46820bd0d7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>8e1a3d69-41bd-46a6-8aa9-44d25f4c0e91</webElementGuid>
+      <value>radio</value>
+      <webElementGuid>061f43e4-1fa9-474d-acd1-d4dc05cb77f4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>title</name>
+      <name>name</name>
       <type>Main</type>
-      <value>Continue</value>
-      <webElementGuid>1d30437e-f039-4d2a-b6c2-a938a6970bfe</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>button-1 new-address-next-step-button</value>
-      <webElementGuid>0ceef1ec-d1d5-41ff-ab37-35b85e45aad1</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>onclick</name>
-      <type>Main</type>
-      <value>Billing.save()</value>
-      <webElementGuid>c71e850c-2216-4b68-9451-732b9a1fc3ad</webElementGuid>
+      <value>paymentmethod</value>
+      <webElementGuid>574ff4e5-5422-4deb-abdc-7efbeb452968</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>Continue</value>
-      <webElementGuid>8992ce50-5012-4599-a5c8-67951d269ec2</webElementGuid>
+      <value>Payments.CashOnDelivery</value>
+      <webElementGuid>2c9b1754-bfe9-4c71-a82a-13c3199c7c5c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>checked</name>
+      <type>Main</type>
+      <value>checked</value>
+      <webElementGuid>0fc5922c-3c1f-49b5-b8a7-2e7ce7521c0c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;billing-buttons-container&quot;)/input[@class=&quot;button-1 new-address-next-step-button&quot;]</value>
-      <webElementGuid>18c64fec-42ee-4b6e-8f33-d18ec0ea63b6</webElementGuid>
+      <value>id(&quot;paymentmethod_0&quot;)</value>
+      <webElementGuid>52bfee89-556d-4d32-a7c2-365bf53f440b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@value='Continue']</value>
-      <webElementGuid>d9cc961a-7385-40a5-ade9-09a78f0ade6b</webElementGuid>
+      <value>//input[@id='paymentmethod_0']</value>
+      <webElementGuid>42e75abc-5e35-4d8c-8726-480f4cd8074e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='billing-buttons-container']/input</value>
-      <webElementGuid>9b7adf55-a4c8-4772-91e0-c9275608af38</webElementGuid>
+      <value>//div[@id='checkout-payment-method-load']/div/div/ul/li/div/div[2]/input</value>
+      <webElementGuid>62bb7720-69af-4a71-8508-54a0f3b1ad73</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/input</value>
-      <webElementGuid>0e48040e-1d6b-4427-9fd0-3c1a950e7ee4</webElementGuid>
+      <value>//li/div/div[2]/input</value>
+      <webElementGuid>971041aa-350c-48c3-a6aa-af844fc81357</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'button' and @title = 'Continue']</value>
-      <webElementGuid>d29c7df6-f6eb-4a2b-9141-2286fa55eb6f</webElementGuid>
+      <value>//input[@id = 'paymentmethod_0' and @type = 'radio' and @name = 'paymentmethod' and @checked = 'checked']</value>
+      <webElementGuid>b64b238b-4e52-4901-8f2d-6cecf6d61afa</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

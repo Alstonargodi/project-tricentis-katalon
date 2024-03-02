@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_checkout</name>
+   <name>checkout_page</name>
    <tag></tag>
-   <elementGuidId>cc9b6af8-ef2c-44ec-8cbd-bc14503fbf68</elementGuidId>
+   <elementGuidId>2f12ad20-32e2-48ab-9090-f37f0f0bb1a5</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Gift Cards'])[2]/following::div[6]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Gift Cards'])[2]/following::div[5]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>div.page.checkout-page</value>
+         <value>div.center-1</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,15 +22,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>f47386e2-a38f-4cf0-b4ad-52fa17f6626a</webElementGuid>
+      <webElementGuid>bd57e25e-1bfe-4a10-8bf9-1b4d86ccd2f3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>page checkout-page</value>
-      <webElementGuid>a19290cb-011b-4167-ba90-03c89d1b396b</webElementGuid>
+      <value>center-1</value>
+      <webElementGuid>8ff3d53d-0a9a-43aa-93f8-8cd40e0771d4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,6 +38,10 @@
       <name>text</name>
       <type>Main</type>
       <value>
+    
+    
+
+
     
         Checkout
     
@@ -53,15 +57,6 @@
                     
                         
     
-        
-            Select a billing address from your address book or enter a new address.
-            
-                
-                        wayan wayan, sydney city, sydney 21415, Australia
-                    New Address
-                
-            
-        
     
     
         
@@ -502,40 +497,43 @@ Zimbabwe
             Billing.save();
         }
     
+
+
+    
 </value>
-      <webElementGuid>5db5d1ae-5b60-45ce-b446-609755e8cef2</webElementGuid>
+      <webElementGuid>70b6146a-3632-428d-81aa-52b226e9313c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/div[@class=&quot;master-wrapper-page&quot;]/div[@class=&quot;master-wrapper-content&quot;]/div[@class=&quot;master-wrapper-main&quot;]/div[@class=&quot;center-1&quot;]/div[@class=&quot;page checkout-page&quot;]</value>
-      <webElementGuid>9242106d-a695-45c1-a1c6-6e43e3ce1358</webElementGuid>
+      <value>/html[1]/body[1]/div[@class=&quot;master-wrapper-page&quot;]/div[@class=&quot;master-wrapper-content&quot;]/div[@class=&quot;master-wrapper-main&quot;]/div[@class=&quot;center-1&quot;]</value>
+      <webElementGuid>09f39ed0-b834-40be-9bfd-f407dbefab86</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Gift Cards'])[2]/following::div[6]</value>
-      <webElementGuid>2c89fb04-661b-463c-934b-f46e90a2cd03</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Gift Cards'])[2]/following::div[5]</value>
+      <webElementGuid>33aa8866-c083-488d-9021-3bcab080650d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jewelry'])[2]/following::div[7]</value>
-      <webElementGuid>3be6766c-65cd-4b08-87d6-63c6e859a69e</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jewelry'])[2]/following::div[6]</value>
+      <webElementGuid>d8ae646e-93b3-46a9-bf2a-59064ad570cf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div/div[4]/div/div</value>
-      <webElementGuid>e7907661-6efa-42b7-b457-b37a968aa7aa</webElementGuid>
+      <value>//div/div[4]/div</value>
+      <webElementGuid>1a63fe26-7f01-4763-b28b-b2413208dcf2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -544,6 +542,10 @@ Zimbabwe
       <type>Main</type>
       <value>//div[(text() = concat(&quot;
     
+    
+
+
+    
         Checkout
     
     
@@ -558,15 +560,6 @@ Zimbabwe
                     
                         
     
-        
-            Select a billing address from your address book or enter a new address.
-            
-                
-                        wayan wayan, sydney city, sydney 21415, Australia
-                    New Address
-                
-            
-        
     
     
         
@@ -1006,9 +999,16 @@ Zimbabwe
             Accordion.hideSection(&quot; , &quot;'&quot; , &quot;#opc-billing&quot; , &quot;'&quot; , &quot;);
             Billing.save();
         }
+    
+
+
     
 &quot;) or . = concat(&quot;
     
+    
+
+
+    
         Checkout
     
     
@@ -1023,15 +1023,6 @@ Zimbabwe
                     
                         
     
-        
-            Select a billing address from your address book or enter a new address.
-            
-                
-                        wayan wayan, sydney city, sydney 21415, Australia
-                    New Address
-                
-            
-        
     
     
         
@@ -1472,7 +1463,10 @@ Zimbabwe
             Billing.save();
         }
     
+
+
+    
 &quot;))]</value>
-      <webElementGuid>cf3c9c25-8269-4c8c-acc3-b9a8f0677136</webElementGuid>
+      <webElementGuid>0b63a650-89d8-443b-b51e-a38cd264c036</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
