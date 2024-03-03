@@ -16,10 +16,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import utils.random_email.RandomEmail.getEmail as getEmail
 
-
-String email = CustomKeywords.'utils.RandomEmail.getEmail'("wayanpnm", "gmail.com")
+String email = CustomKeywords.'randomemail.RandomEmail.getEmail'("wayanpnm", "gmail.com")
 
 WebUI.openBrowser('')
 
@@ -48,6 +46,7 @@ WebUI.click(findTestObject('Object Repository/registerpage/radiobtn_gender'))
 WebUI.setText(findTestObject('Object Repository/registerpage/textfield_first_name'), first_name)
 
 WebUI.setText(findTestObject('Object Repository/registerpage/textfield_last_name'), last_name)
+
 
 WebUI.setText(findTestObject('Object Repository/registerpage/textfield_email'), email)
 

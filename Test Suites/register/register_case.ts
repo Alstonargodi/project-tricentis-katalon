@@ -12,40 +12,40 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>6bca1b95-bd6c-4cc7-a961-15be3a8ffb39</testSuiteGuid>
    <testCaseLink>
-      <guid>2bdd9d4c-5034-4cb6-8f35-37e7dc6bb33c</guid>
+      <guid>94687ff1-63a0-4453-9298-bbaee0298d99</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/register/normal/register_normal</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>df5e42c8-8477-4316-a616-6b46d764c331</id>
+         <id>75147e31-d0ea-4097-ba76-f78fa17047c3</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/register_data</testDataId>
+         <testDataId>Data Files/register/register_data_normal</testDataId>
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>df5e42c8-8477-4316-a616-6b46d764c331</testDataLinkId>
+         <testDataLinkId>75147e31-d0ea-4097-ba76-f78fa17047c3</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>first_name</value>
          <variableId>28786cf7-6583-4487-94d4-ed30badfd4e2</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>df5e42c8-8477-4316-a616-6b46d764c331</testDataLinkId>
+         <testDataLinkId>75147e31-d0ea-4097-ba76-f78fa17047c3</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>last_name</value>
          <variableId>5bdb3120-f6ec-47d4-96c4-39755a2370dd</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>df5e42c8-8477-4316-a616-6b46d764c331</testDataLinkId>
+         <testDataLinkId>75147e31-d0ea-4097-ba76-f78fa17047c3</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>password</value>
          <variableId>0c255084-c87a-416c-84f8-d3aa2f1330b5</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>df5e42c8-8477-4316-a616-6b46d764c331</testDataLinkId>
+         <testDataLinkId>75147e31-d0ea-4097-ba76-f78fa17047c3</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>confirm_password</value>
          <variableId>26c3833f-a586-42e6-b4b3-2aa5766588fe</variableId>
