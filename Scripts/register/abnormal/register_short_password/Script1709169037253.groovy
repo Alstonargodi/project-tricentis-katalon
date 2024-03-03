@@ -17,6 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+String email = CustomKeywords.'randomemail.RandomEmail.getEmail'("wayanpnm", "gmail.com")
+
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://demowebshop.tricentis.com/')
@@ -41,7 +43,7 @@ WebUI.setText(findTestObject('Object Repository/registerpage/textfield_last_name
 
 WebUI.verifyElementPresent(findTestObject('registerpage/textfield_email'), 0)
 
-WebUI.setText(findTestObject('Object Repository/registerpage/textfield_email'), 'wayanpnm4@mail.com')
+WebUI.setText(findTestObject('Object Repository/registerpage/textfield_email'), email)
 
 WebUI.click(findTestObject('Object Repository/registerpage/div_confirm_password'))
 

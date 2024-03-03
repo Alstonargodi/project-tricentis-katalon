@@ -22,7 +22,6 @@ import internal.GlobalVariable
 public class RandomEmail {
 
 	@Keyword
-
 	public String getEmail(String suffix,String prefix){
 
 		int randomNo = (int)(Math.random() * 1000);

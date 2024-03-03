@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "B873CCEB282AADD28273DA4D34724923",
+  "keywordFileContentHash": "E2443590A2D5386F7A665FD26ABE0B3F",
   "keywordClasses": [
     {
       "name": "randomemail.RandomEmail",
@@ -33,11 +33,10 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         }
       ]
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }
