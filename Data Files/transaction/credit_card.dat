@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>dummy_credit_card</name>
+   <name>credit_card</name>
    <tag></tag>
    <connectionProperties/>
    <containsHeaders>true</containsHeaders>
-   <csvSeperator></csvSeperator>
-   <dataFileGUID>19ba1262-0990-4ccd-8540-1aa18be1657e</dataFileGUID>
-   <dataSourceUrl>Resources/dummy-credit-card.xlsx</dataSourceUrl>
-   <driver>ExcelFile</driver>
+   <csvSeperator>COMMA</csvSeperator>
+   <dataFileGUID>d18ad503-ba8e-4421-8783-f9f6d4c53d1a</dataFileGUID>
+   <dataSourceUrl>Resources/creditcard/dummy-credit-card - Sheet1(2).csv</dataSourceUrl>
+   <driver>CSV</driver>
    <isInternalPath>true</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
-   <sheetName>Sheet1</sheetName>
+   <sheetName></sheetName>
    <usingGlobalDBSetting>false</usingGlobalDBSetting>
 </DataFileEntity>
