@@ -17,7 +17,67 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('cart/normal/cart_insert'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://demowebshop.tricentis.com/')
+
+WebUI.click(findTestObject('Object Repository/loginpage/menu_login'))
+
+WebUI.comment('Login page')
+
+WebUI.verifyElementPresent(findTestObject('loginpage/div_login_page'), 0)
+
+WebUI.verifyTextPresent('Welcome, Please Sign In!', false)
+
+WebUI.verifyElementVisible(findTestObject('loginpage/textfield_email'))
+
+WebUI.setText(findTestObject('Object Repository/loginpage/textfield_email'), username)
+
+WebUI.verifyElementVisible(findTestObject('loginpage/textfield_password'))
+
+WebUI.setText(findTestObject('loginpage/textfield_password'), password)
+
+WebUI.verifyElementVisible(findTestObject('loginpage/checkbox_rememberme'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Object Repository/loginpage/checkbox_rememberme'))
+
+WebUI.verifyElementChecked(findTestObject('cartpage/checkbox_rememberme'), 1)
+
+WebUI.verifyElementClickable(findTestObject('loginpage/button_login'))
+
+WebUI.click(findTestObject('Object Repository/loginpage/button_login'))
+
+WebUI.comment('Insert a item to cart')
+
+WebUI.verifyElementPresent(findTestObject('cartpage/div_featured_product'), 0)
+
+WebUI.click(findTestObject('cartpage/div_product_item'))
+
+WebUI.verifyElementPresent(findTestObject('cartpage/textfield_recipient_name'), 0)
+
+WebUI.verifyElementPresent(findTestObject('cartpage/textfield_recipient_email'), 0)
+
+WebUI.verifyElementPresent(findTestObject('cartpage/textfield_sender_name'), 0)
+
+WebUI.verifyElementPresent(findTestObject('cartpage/textfield_sender_email'), 0)
+
+WebUI.verifyElementPresent(findTestObject('cartpage/button_quatity_cart'), 0)
+
+WebUI.setText(findTestObject('Object Repository/cartpage/textfield_recipient_name'), recipient_name)
+
+WebUI.setText(findTestObject('Object Repository/cartpage/textfield_recipient_email'), recipient_email)
+
+WebUI.setText(findTestObject('cartpage/textfield_sender_name'), sender_name)
+
+WebUI.setText(findTestObject('cartpage/textfield_sender_email'), sender_email)
+
+WebUI.setText(findTestObject('cartpage/textfield_message'), sender_message)
+
+WebUI.click(findTestObject('Object Repository/cartpage/button_quatity_cart'))
+
+WebUI.verifyElementVisible(findTestObject('cartpage/label_add_success'))
+
+WebUI.comment('transacition page')
 
 WebUI.verifyElementPresent(findTestObject('transactionpage/menu_shopping_cart'), 0)
 
