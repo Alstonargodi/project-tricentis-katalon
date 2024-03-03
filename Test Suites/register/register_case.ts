@@ -95,7 +95,7 @@
       <guid>7239d901-0f54-456d-885f-4d2efd37515f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/register/abnormal/register_wrong_confirm_password</testCaseId>
+      <testCaseId>Test Cases/register/abnormal/register_confirmpassword_invalid</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>580777a4-27c0-43a7-9005-76ec8beac4f9</id>
