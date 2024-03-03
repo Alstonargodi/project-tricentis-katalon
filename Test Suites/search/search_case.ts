@@ -15,7 +15,7 @@
       <guid>6f527173-e27a-42c2-9ec9-bff8d102e08c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/search/test</testCaseId>
+      <testCaseId>Test Cases/search/search_test</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>12fbe8cb-1402-4c13-863f-171f1822260d</id>
@@ -24,6 +24,15 @@
             <value></value>
          </iterationEntity>
          <testDataId>Data Files/login/login_data_normal</testDataId>
+      </testDataLink>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>511099b2-56c9-4ffb-9b28-3450507dd0d4</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/cart/cart_insert_data</testDataId>
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -43,6 +52,30 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>8b6872d0-b982-4571-ba68-326706a91adb</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>511099b2-56c9-4ffb-9b28-3450507dd0d4</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>recipient_email</value>
+         <variableId>800b9234-49d2-4da0-a2fc-516dce49bc8d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>511099b2-56c9-4ffb-9b28-3450507dd0d4</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>sender_name</value>
+         <variableId>d036778c-d3f5-4b53-b0bb-2fa6b4e40709</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>511099b2-56c9-4ffb-9b28-3450507dd0d4</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>sender_email</value>
+         <variableId>0e655a05-61ac-4831-9287-c28b43037eb4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>511099b2-56c9-4ffb-9b28-3450507dd0d4</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>sender_message</value>
+         <variableId>2acefaee-c2e9-4e08-9569-e4c014961d70</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

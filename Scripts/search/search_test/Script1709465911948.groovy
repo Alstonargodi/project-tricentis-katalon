@@ -59,5 +59,7 @@ WebUI.setText(findTestObject('search/textfield_search_item'), search_item_name)
 
 WebUI.click(findTestObject('search/button_search_item'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('cartpage/title_detail_product'), search_item_name)
+WebUI.verifyElementText(findTestObject('search/title_item_product'), search_item_name)
+
+WebUI.comment('add to cart')
 
