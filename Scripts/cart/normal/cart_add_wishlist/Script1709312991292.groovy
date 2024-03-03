@@ -17,7 +17,33 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('login/normal/login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://demowebshop.tricentis.com/')
+
+WebUI.click(findTestObject('Object Repository/loginpage/menu_login'))
+
+WebUI.verifyElementPresent(findTestObject('loginpage/div_login_page'), 0)
+
+WebUI.verifyTextPresent('Welcome, Please Sign In!', false)
+
+WebUI.verifyElementVisible(findTestObject('loginpage/textfield_email'))
+
+WebUI.setText(findTestObject('Object Repository/loginpage/textfield_email'), username)
+
+WebUI.verifyElementVisible(findTestObject('loginpage/textfield_password'))
+
+WebUI.setText(findTestObject('loginpage/textfield_password'), password)
+
+WebUI.verifyElementVisible(findTestObject('loginpage/checkbox_rememberme'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Object Repository/loginpage/checkbox_rememberme'))
+
+WebUI.verifyElementChecked(findTestObject('cartpage/checkbox_rememberme'), 1)
+
+WebUI.verifyElementClickable(findTestObject('loginpage/button_login'))
+
+WebUI.click(findTestObject('Object Repository/loginpage/button_login'))
 
 WebUI.verifyElementPresent(findTestObject('cartpage/div_featured_product'), 0)
 
@@ -33,13 +59,13 @@ WebUI.verifyElementPresent(findTestObject('cartpage/textfield_sender_email'), 0)
 
 WebUI.verifyElementPresent(findTestObject('cartpage/button_quatity_cart'), 0)
 
-WebUI.setText(findTestObject('Object Repository/cartpage/textfield_recipient_name'), 'budi')
+WebUI.setText(findTestObject('Object Repository/cartpage/textfield_recipient_name'), recipient_name)
 
-WebUI.setText(findTestObject('Object Repository/cartpage/textfield_recipient_email'), 'bud@mail.com')
+WebUI.setText(findTestObject('Object Repository/cartpage/textfield_recipient_email'), recipient_email)
 
-WebUI.setText(findTestObject('cartpage/textfield_sender_name'), 'wayan')
+WebUI.setText(findTestObject('cartpage/textfield_sender_name'), sender_name)
 
-WebUI.setText(findTestObject('cartpage/textfield_sender_email'), 'wayanpnm@gmail.com')
+WebUI.setText(findTestObject('cartpage/textfield_sender_email'), sender_email)
 
 WebUI.click(findTestObject('cartpage/button_add_wishlist'))
 
