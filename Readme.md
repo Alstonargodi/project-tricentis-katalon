@@ -57,3 +57,7 @@
 2. **Scenario:** Menggunakan alamat lama
 3. **Expected Result:** Pengguna dapat memilih alamat yang telah disimpan sebelumnya saat melakukan proses checkout.
 
+
+Link demo
+https://drive.google.com/file/d/11AC7svCBhC8hBzp3p5TNbViZ8xHjkVQM/view?usp=sharing
+
