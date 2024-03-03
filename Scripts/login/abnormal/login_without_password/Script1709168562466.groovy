@@ -21,21 +21,23 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://demowebshop.tricentis.com/')
 
-WebUI.click(findTestObject('Object Repository/menu_login'))
+WebUI.waitForPageLoad(20)
+
+WebUI.click(findTestObject('loginpage/menu_login'))
 
 WebUI.verifyElementPresent(findTestObject('loginpage/div_login_page'), 0)
 
 WebUI.verifyTextPresent('Welcome, Please Sign In!', false)
 
-WebUI.verifyElementVisible(findTestObject('loginpage/textfield_email'))
+WebUI.verifyElementPresent(findTestObject('loginpage/textfield_email'), 0)
 
-WebUI.setText(findTestObject('Object Repository/textfield_email'), 'wayanpnm@gmail.com')
+WebUI.setText(findTestObject('loginpage/textfield_email'), username)
 
-WebUI.click(findTestObject('Object Repository/checkbox_rememberme'))
+WebUI.click(findTestObject('loginpage/checkbox_rememberme'))
 
-WebUI.click(findTestObject('Object Repository/button_login'))
+WebUI.click(findTestObject('loginpage/button_login'))
 
-WebUI.click(findTestObject('Object Repository/warning_incorrect_password'))
+WebUI.click(findTestObject('loginpage/warning_incorrect_password'))
 
 WebUI.closeBrowser()
 

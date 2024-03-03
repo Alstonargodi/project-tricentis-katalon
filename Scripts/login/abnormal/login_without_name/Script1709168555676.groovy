@@ -27,11 +27,11 @@ WebUI.verifyElementPresent(findTestObject('loginpage/div_login_page'), 0)
 
 WebUI.verifyTextPresent('Welcome, Please Sign In!', false)
 
-WebUI.verifyElementVisible(findTestObject('loginpage/textfield_email'))
+WebUI.verifyElementPresent(findTestObject('loginpage/textfield_email'), 0)
 
 WebUI.verifyElementVisible(findTestObject('loginpage/textfield_password'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/loginpage/textfield_password'), 'a7ac9np/DKo=')
+WebUI.setText(findTestObject('Object Repository/loginpage/textfield_password'), password)
 
 WebUI.verifyElementVisible(findTestObject('loginpage/checkbox_rememberme'), FailureHandling.STOP_ON_FAILURE)
 

@@ -16,6 +16,10 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import utils.random_email.RandomEmail.getEmail as getEmail
+
+
+String email = CustomKeywords.'utils.RandomEmail.getEmail'("wayanpnm", "gmail.com")
 
 WebUI.openBrowser('')
 
@@ -41,15 +45,15 @@ WebUI.verifyElementPresent(findTestObject('registerpage/textfield_confirm_passwo
 
 WebUI.click(findTestObject('Object Repository/registerpage/radiobtn_gender'))
 
-WebUI.setText(findTestObject('Object Repository/registerpage/textfield_first_name'), 'wayan')
+WebUI.setText(findTestObject('Object Repository/registerpage/textfield_first_name'), first_name)
 
-WebUI.setText(findTestObject('Object Repository/registerpage/textfield_last_name'), 'wayan')
+WebUI.setText(findTestObject('Object Repository/registerpage/textfield_last_name'), last_name)
 
-WebUI.setText(findTestObject('Object Repository/registerpage/textfield_email'), 'wayanpnm23@gmail.com')
+WebUI.setText(findTestObject('Object Repository/registerpage/textfield_email'), email)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/registerpage/textfield_password'), 'GUcGOF7UcRCnougCxEW6Rw==')
+WebUI.setText(findTestObject('Object Repository/registerpage/textfield_password'), password)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/registerpage/textfield_confirm_password'), 'GUcGOF7UcRCnougCxEW6Rw==')
+WebUI.setText(findTestObject('Object Repository/registerpage/textfield_confirm_password'), confirm_password)
 
 WebUI.click(findTestObject('Object Repository/registerpage/button_register'))
 
