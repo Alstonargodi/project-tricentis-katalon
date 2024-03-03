@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>test</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>aee9312c-229c-473d-98e7-10535add3310</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5ba35dd9-56a9-404b-a022-147688d24fc5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6fc369b1-0cff-48ad-8a62-824b895e0c37</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8b6872d0-b982-4571-ba68-326706a91adb</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5ba35dd9-56a9-404b-a022-147688d24fc5</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6fc369b1-0cff-48ad-8a62-824b895e0c37</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'$25 Virtual Gift Card'</defaultValue>
+      <description></description>
+      <id>8b6872d0-b982-4571-ba68-326706a91adb</id>
+      <masked>false</masked>
+      <name>search_item_name</name>
+   </variable>
+</TestCaseEntity>

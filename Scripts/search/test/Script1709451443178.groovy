@@ -51,29 +51,13 @@ WebUI.comment('Insert a item to cart')
 
 WebUI.verifyElementPresent(findTestObject('cartpage/div_featured_product'), 0)
 
-WebUI.click(findTestObject('cartpage/div_product_item'))
+WebUI.verifyElementPresent(findTestObject('search/textfield_search_item'), 0)
 
-WebUI.verifyElementPresent(findTestObject('cartpage/textfield_recipient_name'), 0)
+WebUI.verifyElementPresent(findTestObject('search/button_search_item'), 0)
 
-WebUI.verifyElementPresent(findTestObject('cartpage/textfield_recipient_email'), 0)
+WebUI.setText(findTestObject('search/textfield_search_item'), search_item_name)
 
-WebUI.verifyElementPresent(findTestObject('cartpage/textfield_sender_name'), 0)
+WebUI.click(findTestObject('search/button_search_item'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('cartpage/textfield_sender_email'), 0)
-
-WebUI.verifyElementPresent(findTestObject('cartpage/button_quatity_cart'), 0)
-
-WebUI.setText(findTestObject('Object Repository/cartpage/textfield_recipient_name'), recipient_name)
-
-WebUI.setText(findTestObject('Object Repository/cartpage/textfield_recipient_email'), recipient_email)
-
-WebUI.setText(findTestObject('cartpage/textfield_sender_name'), sender_name)
-
-WebUI.setText(findTestObject('cartpage/textfield_sender_email'), sender_email)
-
-WebUI.setText(findTestObject('cartpage/textfield_message'), sender_message)
-
-WebUI.click(findTestObject('Object Repository/cartpage/button_quatity_cart'))
-
-WebUI.verifyElementVisible(findTestObject('cartpage/label_add_success'))
+WebUI.verifyElementPresent(findTestObject('cartpage/title_detail_product'), search_item_name)
 
